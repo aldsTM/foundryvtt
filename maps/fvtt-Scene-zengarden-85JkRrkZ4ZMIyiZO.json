@@ -1,0 +1,668 @@
+{
+  "folder": "X5axwDh1cIS8545c",
+  "name": "ZenGarden",
+  "navigation": true,
+  "navOrder": 0,
+  "background": {
+    "src": "https://raw.githubusercontent.com/aldsTM/foundryvtt/refs/heads/main/maps/ZenGarden-half.jpg",
+    "anchorX": 0,
+    "anchorY": 0,
+    "offsetX": 0,
+    "offsetY": 0,
+    "fit": "fill",
+    "scaleX": 1,
+    "scaleY": 1,
+    "rotation": 0,
+    "tint": "#ffffff",
+    "alphaThreshold": 0
+  },
+  "foreground": null,
+  "foregroundElevation": 999,
+  "thumb": "worlds/almalexia-alpha/assets/scenes/85JkRrkZ4ZMIyiZO-thumb.webp",
+  "width": 5040,
+  "height": 3360,
+  "padding": 0.05,
+  "initial": {
+    "x": null,
+    "y": null,
+    "scale": null
+  },
+  "backgroundColor": "#999999",
+  "grid": {
+    "type": 1,
+    "size": 140,
+    "style": "solidLines",
+    "thickness": 1,
+    "color": "#d5a6bd",
+    "alpha": 1,
+    "distance": 5,
+    "units": "ft"
+  },
+  "tokenVision": true,
+  "fog": {
+    "exploration": false,
+    "overlay": null,
+    "colors": {
+      "explored": null,
+      "unexplored": null
+    }
+  },
+  "environment": {
+    "darknessLevel": 0,
+    "darknessLock": false,
+    "globalLight": {
+      "enabled": true,
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "luminosity": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 0.9
+      }
+    },
+    "cycle": true,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
+    }
+  },
+  "drawings": [
+    {
+      "_id": "s62fzGST400g4aN3",
+      "author": "R80hbppbUl1u0ueb",
+      "shape": {
+        "type": "r",
+        "width": 1400,
+        "height": 560,
+        "radius": null,
+        "points": []
+      },
+      "x": 980,
+      "y": 560,
+      "elevation": 0,
+      "sort": 0,
+      "rotation": 0,
+      "bezierFactor": 0.5,
+      "fillType": 0,
+      "fillColor": "#7b28cc",
+      "fillAlpha": 0.5,
+      "strokeWidth": 8,
+      "strokeColor": "#00ff00",
+      "strokeAlpha": 1,
+      "texture": null,
+      "text": "",
+      "fontFamily": "Signika",
+      "fontSize": 48,
+      "textColor": "#ffffff",
+      "textAlpha": 1,
+      "hidden": false,
+      "locked": false,
+      "interface": false,
+      "flags": {}
+    },
+    {
+      "author": "R80hbppbUl1u0ueb",
+      "shape": {
+        "type": "r",
+        "width": 1400,
+        "height": 560,
+        "radius": null,
+        "points": []
+      },
+      "x": 3220,
+      "y": 2800,
+      "elevation": 0,
+      "sort": 0,
+      "rotation": 0,
+      "bezierFactor": 0.5,
+      "fillType": 0,
+      "fillColor": "#7b28cc",
+      "fillAlpha": 0.5,
+      "strokeWidth": 8,
+      "strokeColor": "#00ff00",
+      "strokeAlpha": 1,
+      "texture": null,
+      "text": "",
+      "fontFamily": "Signika",
+      "fontSize": 48,
+      "textColor": "#ffffff",
+      "textAlpha": 1,
+      "hidden": false,
+      "locked": false,
+      "interface": false,
+      "flags": {},
+      "_id": "EKRjxuhiRmdUKSR6"
+    },
+    {
+      "_id": "BulmcWPBhzFGtTDt",
+      "author": "R80hbppbUl1u0ueb",
+      "shape": {
+        "type": "r",
+        "width": 980,
+        "height": 840,
+        "radius": null,
+        "points": []
+      },
+      "x": 560,
+      "y": 1680,
+      "elevation": 0,
+      "sort": 1,
+      "rotation": 0,
+      "bezierFactor": 0.5,
+      "fillType": 0,
+      "fillColor": "#7b28cc",
+      "fillAlpha": 0.5,
+      "strokeWidth": 8,
+      "strokeColor": "#00ff00",
+      "strokeAlpha": 1,
+      "texture": null,
+      "text": "",
+      "fontFamily": "Signika",
+      "fontSize": 48,
+      "textColor": "#ffffff",
+      "textAlpha": 1,
+      "hidden": false,
+      "locked": false,
+      "interface": false,
+      "flags": {}
+    },
+    {
+      "author": "R80hbppbUl1u0ueb",
+      "shape": {
+        "type": "r",
+        "width": 980,
+        "height": 840,
+        "radius": null,
+        "points": []
+      },
+      "x": 4060,
+      "y": 1540,
+      "elevation": 0,
+      "sort": 1,
+      "rotation": 0,
+      "bezierFactor": 0.5,
+      "fillType": 0,
+      "fillColor": "#7b28cc",
+      "fillAlpha": 0.5,
+      "strokeWidth": 8,
+      "strokeColor": "#00ff00",
+      "strokeAlpha": 1,
+      "texture": null,
+      "text": "",
+      "fontFamily": "Signika",
+      "fontSize": 48,
+      "textColor": "#ffffff",
+      "textAlpha": 1,
+      "hidden": false,
+      "locked": false,
+      "interface": false,
+      "flags": {},
+      "_id": "DoxXfwfCRhDiMwG7"
+    }
+  ],
+  "tokens": [],
+  "lights": [],
+  "notes": [],
+  "sounds": [],
+  "regions": [
+    {
+      "name": "Pond1",
+      "color": "#1a4a4b",
+      "shapes": [
+        {
+          "type": "polygon",
+          "points": [
+            980,
+            1120,
+            1120,
+            1120,
+            1260,
+            1120,
+            1400,
+            980,
+            1540,
+            980,
+            1540,
+            1540,
+            1400,
+            1680,
+            1120,
+            1680,
+            840,
+            1400
+          ],
+          "hole": false
+        },
+        {
+          "type": "polygon",
+          "points": [
+            1820,
+            1400,
+            2240,
+            1400,
+            2380,
+            1540,
+            2380,
+            1680,
+            2240,
+            1820,
+            2240,
+            2520,
+            1820,
+            2660,
+            1680,
+            2520,
+            1540,
+            2100,
+            1820,
+            1680
+          ],
+          "hole": false
+        },
+        {
+          "type": "polygon",
+          "points": [
+            2520,
+            1540,
+            2660,
+            1540,
+            2660,
+            1400,
+            2940,
+            1260,
+            3220,
+            1400,
+            3220,
+            1820,
+            2660,
+            2520,
+            2800,
+            2800,
+            2380,
+            2800,
+            2520,
+            2520,
+            2660,
+            1680,
+            2520,
+            1680
+          ],
+          "hole": false
+        },
+        {
+          "type": "polygon",
+          "points": [
+            2240,
+            2800,
+            2240,
+            3080,
+            2380,
+            3080,
+            2380,
+            2800
+          ],
+          "hole": false
+        },
+        {
+          "type": "polygon",
+          "points": [
+            4200,
+            1540,
+            4200,
+            1680,
+            4480,
+            1820,
+            4480,
+            2100,
+            4900,
+            2100,
+            4900,
+            1820,
+            4620,
+            1400,
+            4480,
+            1260
+          ],
+          "hole": false
+        },
+        {
+          "type": "polygon",
+          "points": [
+            5040,
+            560,
+            3780,
+            560,
+            3780,
+            980,
+            4340,
+            840,
+            4620,
+            980,
+            4620,
+            1120,
+            4760,
+            1260,
+            5040,
+            1260
+          ],
+          "hole": false
+        },
+        {
+          "type": "polygon",
+          "points": [
+            560,
+            3360,
+            1820,
+            3360,
+            1820,
+            3080,
+            1540,
+            3080,
+            1540,
+            3220,
+            1120,
+            3220,
+            1120,
+            3080,
+            560,
+            3080
+          ],
+          "hole": false
+        },
+        {
+          "type": "polygon",
+          "points": [
+            560,
+            2800,
+            560,
+            3080,
+            1120,
+            3080,
+            1120,
+            2940,
+            1540,
+            2940,
+            1540,
+            3080,
+            1820,
+            3080,
+            1820,
+            2940,
+            1540,
+            2660,
+            1260,
+            2660,
+            980,
+            2800
+          ],
+          "hole": false
+        }
+      ],
+      "_id": "DHF2Ri0o0hljhcfH",
+      "elevation": {
+        "bottom": null,
+        "top": null
+      },
+      "behaviors": [
+        {
+          "name": "Pond1",
+          "type": "dnd5e.difficultTerrain",
+          "_id": "4L7mhzMTAg2vrXjP",
+          "system": {
+            "magical": false,
+            "types": [
+              "liquid"
+            ],
+            "ignoredDispositions": []
+          },
+          "disabled": false,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "dnd5e",
+            "systemVersion": "5.2.5",
+            "createdTime": 1773065524661,
+            "modifiedTime": 1773065556554,
+            "lastModifiedBy": "R80hbppbUl1u0ueb"
+          }
+        }
+      ],
+      "visibility": 1,
+      "locked": false,
+      "flags": {}
+    }
+  ],
+  "templates": [],
+  "tiles": [],
+  "walls": [
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 0,
+      "move": 0,
+      "c": [
+        140,
+        560,
+        5320,
+        2940
+      ],
+      "_id": "AOocWBEQZMisydb3",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "flags": {
+        "wall-height": {
+          "top": null,
+          "bottom": null
+        }
+      }
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 0,
+      "move": 0,
+      "c": [
+        0,
+        840,
+        5460,
+        3360
+      ],
+      "_id": "eOQMcPshxaynhgOo",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "flags": {
+        "wall-height": {
+          "top": null,
+          "bottom": null
+        }
+      }
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 0,
+      "move": 0,
+      "c": [
+        5460,
+        3360,
+        5320,
+        2940
+      ],
+      "_id": "9t41NLjhzIcGbHJg",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "flags": {
+        "wall-height": {
+          "top": null,
+          "bottom": null
+        }
+      }
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 0,
+      "move": 0,
+      "c": [
+        140,
+        560,
+        0,
+        840
+      ],
+      "_id": "TdclJfN1E004ofAT",
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "flags": {
+        "wall-height": {
+          "top": null,
+          "bottom": null
+        }
+      }
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 0,
+      "move": 0,
+      "c": [
+        0,
+        420,
+        5600,
+        2940
+      ],
+      "_id": "1akRKQY3B3tyw2Mr",
+      "dir": 2,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "flags": {
+        "wall-height": {
+          "top": null,
+          "bottom": null
+        }
+      }
+    },
+    {
+      "light": 10,
+      "sight": 10,
+      "sound": 0,
+      "move": 0,
+      "c": [
+        0,
+        980,
+        5600,
+        3500
+      ],
+      "_id": "tWq0qRHojgNwru8b",
+      "dir": 1,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "flags": {
+        "wall-height": {
+          "top": null,
+          "bottom": null
+        }
+      }
+    }
+  ],
+  "playlist": null,
+  "playlistSound": null,
+  "journal": null,
+  "journalEntryPage": null,
+  "weather": "",
+  "flags": {
+    "levels": {
+      "backgroundElevation": 0,
+      "lightMasking": false,
+      "weatherElevation": null,
+      "sceneLevels": []
+    },
+    "wall-height": {
+      "advancedVision": true
+    }
+  },
+  "_stats": {
+    "compendiumSource": null,
+    "duplicateSource": "Scene.tJRuHSVIWtanMsfh",
+    "exportSource": {
+      "worldId": "almalexia-alpha",
+      "uuid": "Scene.85JkRrkZ4ZMIyiZO",
+      "coreVersion": "13.351",
+      "systemId": "dnd5e",
+      "systemVersion": "5.2.5"
+    },
+    "coreVersion": "13.351",
+    "systemId": "dnd5e",
+    "systemVersion": "5.2.5",
+    "createdTime": 1772950449577,
+    "modifiedTime": 1774375497568,
+    "lastModifiedBy": "R80hbppbUl1u0ueb"
+  },
+  "navName": "Zen Garden",
+  "ownership": {
+    "default": 0
+  }
+}
