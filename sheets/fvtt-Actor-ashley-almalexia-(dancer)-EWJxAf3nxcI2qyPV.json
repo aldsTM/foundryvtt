@@ -534,7 +534,7 @@
         "value": "",
         "public": ""
       },
-      "alignment": "chaotic good",
+      "alignment": "lawful good",
       "ideal": "",
       "bond": "",
       "flaw": "",
@@ -1826,7 +1826,7 @@
     "ginzzzu-portraits": {
       "favorite": true,
       "portraitShown": false,
-      "portraitFlipX": true,
+      "portraitFlipX": false,
       "displayName": "Ash",
       "portraitHeightMultiplier": 1,
       "portraitCustomImage": null,
@@ -1855,7 +1855,7 @@
     "systemId": "dnd5e",
     "systemVersion": "5.2.5",
     "createdTime": 1772992621610,
-    "modifiedTime": 1774376128285,
+    "modifiedTime": 1774442114800,
     "lastModifiedBy": "R80hbppbUl1u0ueb"
   },
   "ownership": {
