@@ -643,7 +643,7 @@
     "lockRotation": true,
     "rotation": 0,
     "alpha": 1,
-    "disposition": -1,
+    "disposition": 1,
     "displayBars": 40,
     "bar1": {
       "attribute": "attributes.hp"
@@ -4313,7 +4313,7 @@
     "systemId": "dnd5e",
     "systemVersion": "5.2.5",
     "createdTime": 1774449169035,
-    "modifiedTime": 1774453389231,
+    "modifiedTime": 1774521767055,
     "lastModifiedBy": "R80hbppbUl1u0ueb"
   },
   "ownership": {
