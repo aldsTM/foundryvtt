@@ -503,11 +503,11 @@
         "spent": 0
       },
       "hp": {
-        "max": 97,
+        "max": 71,
         "temp": null,
         "tempmax": null,
-        "value": 97,
-        "formula": "15d8+30",
+        "value": 71,
+        "formula": "11d8+22",
         "dt": null
       },
       "death": {
@@ -542,9 +542,9 @@
       "race": null,
       "type": {
         "value": "humanoid",
+        "custom": "",
         "subtype": "elf",
-        "swarm": "",
-        "custom": ""
+        "swarm": ""
       },
       "habitat": {
         "value": [],
@@ -2022,7 +2022,7 @@
       "sort": 0,
       "flags": {},
       "_stats": {
-        "compendiumSource": "Actor.wurk91kCoJtoLLLX.Item.u4shJGgMPJIvzzU8",
+        "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
         "coreVersion": "13.351",
@@ -2207,7 +2207,7 @@
     "dnd5e": {}
   },
   "_stats": {
-    "compendiumSource": "Actor.wurk91kCoJtoLLLX",
+    "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": {
       "worldId": "almalexia-alpha",
@@ -2220,7 +2220,7 @@
     "systemId": "dnd5e",
     "systemVersion": "5.2.5",
     "createdTime": 1774441197127,
-    "modifiedTime": 1774446586571,
+    "modifiedTime": 1774499280602,
     "lastModifiedBy": "R80hbppbUl1u0ueb"
   },
   "ownership": {
