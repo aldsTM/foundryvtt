@@ -367,7 +367,7 @@
           "max": null,
           "mode": 0
         },
-        "value": 0,
+        "value": 1,
         "bonuses": {
           "check": "",
           "passive": ""
@@ -565,7 +565,7 @@
     },
     "resources": {
       "legact": {
-        "max": 3,
+        "max": 0,
         "spent": 0
       },
       "legres": {
@@ -7044,7 +7044,7 @@
           "revision": 1
         },
         "description": {
-          "value": "<p>Aurelia casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC <span class=\"rd__dc\">20</span>):</p><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"Spellcasting\" class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>At will: @UUID[Actor.FYUC86Yhypft1CXY.Item.cdwD7loTMUkvXCvE], @UUID[Actor.FYUC86Yhypft1CXY.Item.MjcYAjebZJ5GSetZ], @UUID[Actor.FYUC86Yhypft1CXY.Item.0GvFzarN1YspYNEd], @UUID[Actor.FYUC86Yhypft1CXY.Item.MDZAKouSot7hIPsR]</p></li><li class=\"rd__li  rd__li-spell\"><p>3/day each: @UUID[Actor.FYUC86Yhypft1CXY.Item.qLhJJJnW6U42WQFI], @UUID[Actor.FYUC86Yhypft1CXY.Item.C2hd6cdCbTKdd75o], @UUID[Actor.FYUC86Yhypft1CXY.Item.0sosihSAsXOceJXf], @UUID[Actor.FYUC86Yhypft1CXY.Item.zAgMeHap6fzOiZpr], @UUID[Actor.FYUC86Yhypft1CXY.Item.Z8D3xWITsptbSusw], @UUID[Actor.FYUC86Yhypft1CXY.Item.iOrCmalAt785Kq9K], @UUID[Actor.FYUC86Yhypft1CXY.Item.o0QdU3PIpT2qb9Zy], @UUID[Actor.FYUC86Yhypft1CXY.Item.Q64WOaLk56OT9CAe]</p></li><li class=\"rd__li  rd__li-spell\"><p>1/day each: @UUID[Actor.FYUC86Yhypft1CXY.Item.uBCxogB8RWUq2h8E], @UUID[Actor.FYUC86Yhypft1CXY.Item.Fr1Ec6K67cSmgFDr], @UUID[Actor.FYUC86Yhypft1CXY.Item.T9XQnYWzzscnnVrx], @UUID[Actor.FYUC86Yhypft1CXY.Item.ld8EGKtNoqtkIQmo], @UUID[Actor.FYUC86Yhypft1CXY.Item.YobupgBiQ4JZ3JLt], @UUID[Actor.FYUC86Yhypft1CXY.Item.vEZc5LIAFGPPr1je], @UUID[Actor.FYUC86Yhypft1CXY.Item.1a70Sk4aDJhX0UzX], @UUID[Actor.FYUC86Yhypft1CXY.Item.QniVljf8Dj7MQkso], @UUID[Actor.FYUC86Yhypft1CXY.Item.K9z0HrCO8nhwkA9K], @UUID[Actor.FYUC86Yhypft1CXY.Item.vyNAtQPTiOvveuME], @UUID[Actor.FYUC86Yhypft1CXY.Item.4HzCg0eHnKl6TbCE], @UUID[Actor.FYUC86Yhypft1CXY.Item.ugPqjMwIn7RTQjo2], @UUID[Actor.FYUC86Yhypft1CXY.Item.J5bsNsMtdL5wmEgj]</p></li></ul></div></div>",
+          "value": "<p>Aurelia casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC <span class=\"rd__dc\">20</span>):</p><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"Spellcasting\" class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>At will: @UUID[Actor.FYUC86Yhypft1CXY.Item.cdwD7loTMUkvXCvE], @UUID[Actor.FYUC86Yhypft1CXY.Item.MjcYAjebZJ5GSetZ], @UUID[Actor.FYUC86Yhypft1CXY.Item.0GvFzarN1YspYNEd], @UUID[Actor.FYUC86Yhypft1CXY.Item.MDZAKouSot7hIPsR]</p></li><li class=\"rd__li  rd__li-spell\"><p>3/day each: @UUID[Actor.FYUC86Yhypft1CXY.Item.qLhJJJnW6U42WQFI], @UUID[Actor.FYUC86Yhypft1CXY.Item.C2hd6cdCbTKdd75o], @UUID[Actor.FYUC86Yhypft1CXY.Item.0sosihSAsXOceJXf], @UUID[Actor.FYUC86Yhypft1CXY.Item.zAgMeHap6fzOiZpr], @UUID[Actor.FYUC86Yhypft1CXY.Item.Z8D3xWITsptbSusw], @UUID[Actor.FYUC86Yhypft1CXY.Item.iOrCmalAt785Kq9K], @UUID[Actor.FYUC86Yhypft1CXY.Item.o0QdU3PIpT2qb9Zy], @UUID[Actor.FYUC86Yhypft1CXY.Item.YOEEqbXr9hJwRAA3], @UUID[Actor.FYUC86Yhypft1CXY.Item.Q64WOaLk56OT9CAe]</p></li><li class=\"rd__li  rd__li-spell\"><p>1/day each: @UUID[Actor.FYUC86Yhypft1CXY.Item.uBCxogB8RWUq2h8E], @UUID[Actor.FYUC86Yhypft1CXY.Item.Fr1Ec6K67cSmgFDr], @UUID[Actor.FYUC86Yhypft1CXY.Item.T9XQnYWzzscnnVrx], @UUID[Actor.FYUC86Yhypft1CXY.Item.ld8EGKtNoqtkIQmo], @UUID[Actor.FYUC86Yhypft1CXY.Item.YobupgBiQ4JZ3JLt], @UUID[Actor.FYUC86Yhypft1CXY.Item.vEZc5LIAFGPPr1je], @UUID[Actor.FYUC86Yhypft1CXY.Item.1a70Sk4aDJhX0UzX], @UUID[Actor.FYUC86Yhypft1CXY.Item.QniVljf8Dj7MQkso], @UUID[Actor.FYUC86Yhypft1CXY.Item.K9z0HrCO8nhwkA9K], @UUID[Actor.FYUC86Yhypft1CXY.Item.vyNAtQPTiOvveuME], @UUID[Actor.FYUC86Yhypft1CXY.Item.4HzCg0eHnKl6TbCE], @UUID[Actor.FYUC86Yhypft1CXY.Item.ugPqjMwIn7RTQjo2], @UUID[Actor.FYUC86Yhypft1CXY.Item.J5bsNsMtdL5wmEgj]</p></li></ul></div></div>",
           "chat": ""
         },
         "requirements": "",
@@ -7315,7 +7315,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.2.5",
         "createdTime": 1774535999095,
-        "modifiedTime": 1774536886135,
+        "modifiedTime": 1774617348927,
         "lastModifiedBy": "R80hbppbUl1u0ueb"
       },
       "folder": null,
@@ -8905,7 +8905,222 @@
       }
     },
     {
-      "_id": "9D08E5A1Fz2NBkxP",
+      "_id": "YOEEqbXr9hJwRAA3",
+      "name": "Prayer of Healing",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB 2024",
+          "page": "307",
+          "license": "",
+          "rules": "2024",
+          "revision": 1
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Up to five creatures of your choice who remain within range for the spell's entire casting gain the benefits of a @variantrule[Short Rest|XPHB] and also regain [[/r 2d8]] @variantrule[Hit Points|XPHB]. A creature can't be affected by this spell again until that creature finishes a @variantrule[Long Rest|XPHB].</p></div><div class=\"rd__b  rd__b--3\"><p></p><div data-roll-name-ancestor=\"Using a Higher-Level Spell Slot\" class=\"rd__b  rd__b--3\"><p><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner \">Using a Higher-Level Spell Slot.</span></span> The healing increases by [[/r 1d8]] for each spell slot level above 2.</p></div></div>",
+          "chat": ""
+        },
+        "level": 2,
+        "school": "abj",
+        "properties": [
+          "vocal"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "ft"
+          },
+          "affects": {
+            "count": "5",
+            "type": "creature",
+            "choice": true,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": "30",
+          "units": "ft",
+          "special": ""
+        },
+        "activation": {
+          "type": "minute",
+          "value": 10,
+          "condition": ""
+        },
+        "duration": {
+          "value": "0",
+          "units": "inst"
+        },
+        "uses": {
+          "max": "3",
+          "recovery": [
+            {
+              "period": "day",
+              "type": "recoverAll"
+            }
+          ],
+          "spent": 0
+        },
+        "method": "innate",
+        "prepared": 1,
+        "activities": {
+          "dnd5eactivity000": {
+            "type": "heal",
+            "activation": {
+              "type": "action",
+              "override": false
+            },
+            "healing": {
+              "number": 2,
+              "denomination": 8,
+              "types": [
+                "healing"
+              ],
+              "scaling": {
+                "mode": "whole",
+                "number": 1
+              },
+              "custom": {
+                "enabled": false
+              }
+            },
+            "effects": [
+              {
+                "_id": "prayerOfHealingx",
+                "level": {}
+              }
+            ],
+            "_id": "dnd5eactivity000",
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "sort": 0,
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "flags": {},
+            "range": {
+              "units": "self",
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            }
+          }
+        },
+        "identifier": "prayer-of-healing",
+        "ability": "",
+        "sourceClass": ""
+      },
+      "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "XPHB",
+          "hash": "prayer%20of%20healing_xphb",
+          "propDroppable": "spell",
+          "spellClassNames": [
+            "Cleric",
+            "Paladin"
+          ]
+        }
+      },
+      "effects": [
+        {
+          "_id": "prayerOfHealingx",
+          "name": "Healed by Prayer",
+          "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>A creature can't be affected by the <a href=\"https://5e.tools/spells.html#prayer%20of%20healing_xphb\" data-vet-page=\"spells.html\" data-vet-source=\"XPHB\" data-vet-hash=\"prayer%20of%20healing_xphb\">Prayer of Healing</a> spell again until that creature finishes a Long Rest.</p></div>",
+          "changes": [],
+          "statuses": [],
+          "disabled": false,
+          "duration": {
+            "startTime": null,
+            "seconds": null,
+            "rounds": null,
+            "turns": null,
+            "startRound": null,
+            "startTurn": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "plutonium": {
+              "dedupeId": "healed-by-prayer"
+            }
+          },
+          "type": "base",
+          "system": {},
+          "tint": "#ffffff",
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "dnd5e",
+            "systemVersion": "5.2.5",
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1774617249467,
+        "modifiedTime": 1774617295427,
+        "lastModifiedBy": "R80hbppbUl1u0ueb"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "XYDl9ARd4n35kHLS",
       "name": "Parry",
       "type": "feat",
       "system": {
@@ -9014,12 +9229,140 @@
         "coreVersion": "13.351",
         "systemId": "dnd5e",
         "systemVersion": "5.2.5",
-        "createdTime": 1774604815097,
-        "modifiedTime": 1774604842065,
+        "createdTime": 1774620508213,
+        "modifiedTime": 1774620508213,
         "lastModifiedBy": "R80hbppbUl1u0ueb"
       },
       "folder": null,
       "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Shield",
+      "type": "feat",
+      "_id": "03nr7BPyiN1U9ps0",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "activities": {
+          "835YMtXFbYtat2DU": {
+            "type": "utility",
+            "_id": "835YMtXFbYtat2DU",
+            "sort": 0,
+            "activation": {
+              "type": "reaction",
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "flags": {},
+            "range": {
+              "units": "self",
+              "override": false,
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [
+                {
+                  "period": "day",
+                  "type": "recoverAll"
+                }
+              ],
+              "max": "1"
+            },
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              },
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false,
+              "identifier": ""
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            },
+            "name": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "advancement": [],
+        "description": {
+          "value": "<p>Aurelia casts the @UUID[Actor.mBmZ9sEfhYqIXt55.Item.oh0NcRy0hKAakx8K] spell.</p>",
+          "chat": ""
+        },
+        "identifier": "feature",
+        "source": {
+          "revision": 1,
+          "rules": "2014"
+        },
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "items": [],
+          "repeatable": false,
+          "level": null
+        },
+        "properties": [],
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Actor.mBmZ9sEfhYqIXt55.Item.EvTLrUbgqEpzeo8h",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1774620534939,
+        "modifiedTime": 1774620534939,
+        "lastModifiedBy": "R80hbppbUl1u0ueb"
+      },
       "ownership": {
         "default": 0
       }
@@ -9053,7 +9396,7 @@
     "systemId": "dnd5e",
     "systemVersion": "5.2.5",
     "createdTime": 1774521628325,
-    "modifiedTime": 1774603593184,
+    "modifiedTime": 1774612096910,
     "lastModifiedBy": "R80hbppbUl1u0ueb"
   },
   "ownership": {
