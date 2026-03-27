@@ -60,7 +60,7 @@
       },
       "con": {
         "value": 10,
-        "proficient": 0,
+        "proficient": 1,
         "max": null,
         "bonuses": {
           "check": "",
@@ -743,7 +743,7 @@
         },
         "advancement": [],
         "description": {
-          "value": "<p>Aurelia wears @UUID[Actor.WYbmblEYGvZfFegg.Item.QDvfn4evCsNuy603] and wields a finesse weapon that, in Aurelia's hands, deals an extra 4d8 radiant damage (included in the attack).</p>",
+          "value": "<p>Aurelia wears @UUID[Actor.WYbmblEYGvZfFegg.Item.QDvfn4evCsNuy603].</p>",
           "chat": ""
         },
         "identifier": "special-equipment",
@@ -777,7 +777,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.2.5",
         "lastModifiedBy": "R80hbppbUl1u0ueb",
-        "modifiedTime": 1774535704209
+        "modifiedTime": 1774604434978
       },
       "ownership": {
         "default": 0
@@ -3294,8 +3294,8 @@
           }
         },
         "identifier": "warding-bond",
-        "ability": "",
-        "sourceClass": ""
+        "sourceClass": "",
+        "ability": ""
       },
       "img": "icons/equipment/head/helm-barbute-horned-gold-pink.webp",
       "flags": {
@@ -4338,8 +4338,8 @@
           }
         },
         "identifier": "true-resurrection",
-        "ability": "",
-        "sourceClass": ""
+        "sourceClass": "",
+        "ability": ""
       },
       "img": "icons/magic/nature/instrument-recorder-leaves.webp",
       "flags": {
@@ -4501,8 +4501,8 @@
           }
         },
         "identifier": "word-of-recall",
-        "ability": "",
-        "sourceClass": ""
+        "sourceClass": "",
+        "ability": ""
       },
       "img": "icons/environment/settlement/house-wooden-fence.webp",
       "flags": {
@@ -4664,8 +4664,8 @@
           }
         },
         "identifier": "greater-restoration",
-        "ability": "",
-        "sourceClass": ""
+        "sourceClass": "",
+        "ability": ""
       },
       "img": "icons/magic/life/heart-cross-strong-flame-blue.webp",
       "flags": {
@@ -4840,8 +4840,8 @@
           }
         },
         "identifier": "heal",
-        "ability": "",
-        "sourceClass": ""
+        "sourceClass": "",
+        "ability": ""
       },
       "img": "icons/magic/life/heart-glowing-red.webp",
       "flags": {
@@ -5014,8 +5014,8 @@
           }
         },
         "identifier": "mass-cure-wounds",
-        "ability": "",
-        "sourceClass": ""
+        "sourceClass": "",
+        "ability": ""
       },
       "img": "icons/magic/life/heart-cross-strong-flame-purple-orange.webp",
       "flags": {
@@ -5185,8 +5185,8 @@
           }
         },
         "identifier": "mass-heal",
-        "ability": "",
-        "sourceClass": ""
+        "sourceClass": "",
+        "ability": ""
       },
       "img": "icons/magic/life/heart-glowing-red.webp",
       "flags": {
@@ -5362,8 +5362,8 @@
           }
         },
         "identifier": "regenerate",
-        "ability": "",
-        "sourceClass": ""
+        "sourceClass": "",
+        "ability": ""
       },
       "img": "icons/commodities/biological/hand-clawed-tan.webp",
       "flags": {
@@ -5765,8 +5765,8 @@
           }
         },
         "identifier": "gentle-repose",
-        "ability": "",
-        "sourceClass": ""
+        "sourceClass": "",
+        "ability": ""
       },
       "img": "icons/magic/life/heart-area-circle-red-green.webp",
       "flags": {
@@ -6374,8 +6374,8 @@
           }
         },
         "identifier": "cure-wounds",
-        "ability": "",
-        "sourceClass": ""
+        "sourceClass": "",
+        "ability": ""
       },
       "img": "icons/magic/life/heart-cross-strong-green.webp",
       "flags": {
@@ -6426,7 +6426,7 @@
           "revision": 1
         },
         "description": {
-          "value": "<div class=\"rd__b  rd__b--3\"><p><em>Melee Weapon Attack:</em> [[/r 1d20+11]]{+11} to hit, reach 5 ft., one target. <em>Hit:</em> 9 ([[/damage 1d8 + 5 type=slashing]]) damage, or 10 ([[/damage 1d10 + 5 type=slashing]]) damage when used with two hands, plus 18 ([[/damage 4d8 type=radiant]]) damage.</p></div>",
+          "value": "<div class=\"rd__b  rd__b--3\"><p><em>Melee Weapon Attack:</em> [[/r 1d20+11]]{+11} to hit, reach 5 ft., one target. <em>Hit:</em> 9 ([[/damage 1d8 + 5 type=slashing]]) damage, or 10 ([[/damage 1d10 + 5 type=slashing]]) damage when used with two hands, plus 18 ([[/damage 4d8 type=radiant]]) damage if wielded by Aurelia.</p></div>",
           "chat": ""
         },
         "range": {
@@ -6764,7 +6764,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.2.5",
         "createdTime": 1774535795251,
-        "modifiedTime": 1774537019876,
+        "modifiedTime": 1774604511424,
         "lastModifiedBy": "R80hbppbUl1u0ueb"
       },
       "folder": null,
@@ -8466,8 +8466,8 @@
           }
         },
         "identifier": "aura-of-vitality",
-        "ability": "",
-        "sourceClass": ""
+        "sourceClass": "",
+        "ability": ""
       },
       "img": "icons/magic/life/cross-area-circle-green-white.webp",
       "flags": {
@@ -8632,8 +8632,8 @@
           }
         },
         "identifier": "ceremony",
-        "ability": "",
-        "sourceClass": ""
+        "sourceClass": "",
+        "ability": ""
       },
       "img": "icons/skills/trades/academics-study-reading-book.webp",
       "flags": {
@@ -8800,8 +8800,8 @@
           }
         },
         "identifier": "bless",
-        "ability": "",
-        "sourceClass": ""
+        "sourceClass": "",
+        "ability": ""
       },
       "img": "icons/magic/life/heart-hand-gold-green.webp",
       "flags": {
@@ -8903,6 +8903,126 @@
       "ownership": {
         "default": 0
       }
+    },
+    {
+      "_id": "9D08E5A1Fz2NBkxP",
+      "name": "Parry",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "GGR",
+          "page": "230",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Aurelia adds 6 to her AC against one melee attack that would hit her. To do so, Aurelia must see the attacker and be wielding a melee weapon.</p></div>",
+          "chat": ""
+        },
+        "requirements": "",
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "advancement": [],
+        "activities": {
+          "dnd5eactivity003": {
+            "_id": "dnd5eactivity003",
+            "type": "utility",
+            "activation": {
+              "type": "reaction",
+              "value": 1,
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "units": "self",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false
+            },
+            "sort": 0,
+            "flags": {},
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            }
+          }
+        },
+        "identifier": "parry",
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "items": [],
+          "repeatable": false,
+          "level": null
+        }
+      },
+      "img": "icons/weapons/swords/swords-short.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterReaction",
+          "source": "GGR",
+          "hash": "parry_aurelia_ggr_ggr"
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "compendiumSource": "Actor.qtNt8MnCxT7zdx0r.Item.ilxvm4tt8O9GtPlv",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1774604815097,
+        "modifiedTime": 1774604842065,
+        "lastModifiedBy": "R80hbppbUl1u0ueb"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
     }
   ],
   "effects": [],
@@ -8920,7 +9040,7 @@
     }
   },
   "_stats": {
-    "compendiumSource": "Actor.FYUC86Yhypft1CXY",
+    "compendiumSource": null,
     "duplicateSource": "Actor.WYbmblEYGvZfFegg",
     "exportSource": {
       "worldId": "almalexia-alpha",
@@ -8933,7 +9053,7 @@
     "systemId": "dnd5e",
     "systemVersion": "5.2.5",
     "createdTime": 1774521628325,
-    "modifiedTime": 1774537595647,
+    "modifiedTime": 1774603593184,
     "lastModifiedBy": "R80hbppbUl1u0ueb"
   },
   "ownership": {
