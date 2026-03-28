@@ -6426,7 +6426,7 @@
           "revision": 1
         },
         "description": {
-          "value": "<div class=\"rd__b  rd__b--3\"><p><em>Melee Weapon Attack:</em> [[/r 1d20+11]]{+11} to hit, reach 5 ft., one target. <em>Hit:</em> 9 ([[/damage 1d8 + 5 type=slashing]]) damage, or 10 ([[/damage 1d10 + 5 type=slashing]]) damage when used with two hands, plus 18 ([[/damage 4d8 type=radiant]]) damage if wielded by Aurelia.</p></div>",
+          "value": "<div class=\"rd__b  rd__b--3\"><p><em>Melee Weapon Attack:</em> [[/r 1d20+11]]{+11} to hit, reach 5 ft., one target. <em>Hit:</em> 9 ([[/damage 1d8 + 5 type=slashing]]) damage, or 10 ([[/damage 1d10 + 5 type=slashing]]) damage when used with two hands, plus 27 ([[/damage 6d8 type=radiant]]) damage if wielded by Aurelia.</p></div>",
           "chat": ""
         },
         "range": {
@@ -6508,7 +6508,7 @@
                     "enabled": false,
                     "formula": ""
                   },
-                  "number": 4,
+                  "number": 6,
                   "denomination": 8,
                   "bonus": "",
                   "types": [
@@ -6619,7 +6619,7 @@
                     "enabled": false,
                     "formula": ""
                   },
-                  "number": 4,
+                  "number": 6,
                   "denomination": 8,
                   "bonus": "",
                   "types": [
@@ -6764,7 +6764,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.2.5",
         "createdTime": 1774535795251,
-        "modifiedTime": 1774604511424,
+        "modifiedTime": 1774627618255,
         "lastModifiedBy": "R80hbppbUl1u0ueb"
       },
       "folder": null,
@@ -9046,8 +9046,8 @@
           }
         },
         "identifier": "prayer-of-healing",
-        "ability": "",
-        "sourceClass": ""
+        "sourceClass": "",
+        "ability": ""
       },
       "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
       "flags": {
