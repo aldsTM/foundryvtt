@@ -6426,7 +6426,7 @@
           "revision": 1
         },
         "description": {
-          "value": "<div class=\"rd__b  rd__b--3\"><p><em>Melee Weapon Attack:</em> [[/r 1d20+11]]{+11} to hit, reach 5 ft., one target. <em>Hit:</em> 9 ([[/damage 1d8 + 5 type=slashing]]) damage, or 10 ([[/damage 1d10 + 5 type=slashing]]) damage when used with two hands, plus 27 ([[/damage 6d8 type=radiant]]) damage if wielded by Aurelia.</p></div>",
+          "value": "<div class=\"rd__b  rd__b--3\"><p><em>Melee Weapon Attack:</em> [[/r 1d20+11]]{+11} to hit, reach 5 ft., one target. <em>Hit:</em> 9 ([[/damage 1d8 + 5 type=slashing]]) damage, or 10 ([[/damage 1d10 + 5 type=slashing]]) damage when used with two hands, plus 22 ([[/damage 5d8 type=radiant]]) damage if wielded by Aurelia.</p></div>",
           "chat": ""
         },
         "range": {
@@ -6508,7 +6508,7 @@
                     "enabled": false,
                     "formula": ""
                   },
-                  "number": 6,
+                  "number": 5,
                   "denomination": 8,
                   "bonus": "",
                   "types": [
@@ -6619,7 +6619,7 @@
                     "enabled": false,
                     "formula": ""
                   },
-                  "number": 6,
+                  "number": 5,
                   "denomination": 8,
                   "bonus": "",
                   "types": [
@@ -6764,7 +6764,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.2.5",
         "createdTime": 1774535795251,
-        "modifiedTime": 1774627618255,
+        "modifiedTime": 1774778214489,
         "lastModifiedBy": "R80hbppbUl1u0ueb"
       },
       "folder": null,
@@ -7044,7 +7044,7 @@
           "revision": 1
         },
         "description": {
-          "value": "<p>Aurelia casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC <span class=\"rd__dc\">20</span>):</p><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"Spellcasting\" class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>At will: @UUID[Actor.FYUC86Yhypft1CXY.Item.cdwD7loTMUkvXCvE], @UUID[Actor.FYUC86Yhypft1CXY.Item.MjcYAjebZJ5GSetZ], @UUID[Actor.FYUC86Yhypft1CXY.Item.0GvFzarN1YspYNEd], @UUID[Actor.FYUC86Yhypft1CXY.Item.MDZAKouSot7hIPsR]</p></li><li class=\"rd__li  rd__li-spell\"><p>3/day each: @UUID[Actor.FYUC86Yhypft1CXY.Item.qLhJJJnW6U42WQFI], @UUID[Actor.FYUC86Yhypft1CXY.Item.C2hd6cdCbTKdd75o], @UUID[Actor.FYUC86Yhypft1CXY.Item.0sosihSAsXOceJXf], @UUID[Actor.FYUC86Yhypft1CXY.Item.zAgMeHap6fzOiZpr], @UUID[Actor.FYUC86Yhypft1CXY.Item.Z8D3xWITsptbSusw], @UUID[Actor.FYUC86Yhypft1CXY.Item.iOrCmalAt785Kq9K], @UUID[Actor.FYUC86Yhypft1CXY.Item.o0QdU3PIpT2qb9Zy], @UUID[Actor.FYUC86Yhypft1CXY.Item.YOEEqbXr9hJwRAA3], @UUID[Actor.FYUC86Yhypft1CXY.Item.Q64WOaLk56OT9CAe]</p></li><li class=\"rd__li  rd__li-spell\"><p>1/day each: @UUID[Actor.FYUC86Yhypft1CXY.Item.uBCxogB8RWUq2h8E], @UUID[Actor.FYUC86Yhypft1CXY.Item.Fr1Ec6K67cSmgFDr], @UUID[Actor.FYUC86Yhypft1CXY.Item.T9XQnYWzzscnnVrx], @UUID[Actor.FYUC86Yhypft1CXY.Item.ld8EGKtNoqtkIQmo], @UUID[Actor.FYUC86Yhypft1CXY.Item.YobupgBiQ4JZ3JLt], @UUID[Actor.FYUC86Yhypft1CXY.Item.vEZc5LIAFGPPr1je], @UUID[Actor.FYUC86Yhypft1CXY.Item.1a70Sk4aDJhX0UzX], @UUID[Actor.FYUC86Yhypft1CXY.Item.QniVljf8Dj7MQkso], @UUID[Actor.FYUC86Yhypft1CXY.Item.K9z0HrCO8nhwkA9K], @UUID[Actor.FYUC86Yhypft1CXY.Item.vyNAtQPTiOvveuME], @UUID[Actor.FYUC86Yhypft1CXY.Item.4HzCg0eHnKl6TbCE], @UUID[Actor.FYUC86Yhypft1CXY.Item.ugPqjMwIn7RTQjo2], @UUID[Actor.FYUC86Yhypft1CXY.Item.J5bsNsMtdL5wmEgj]</p></li></ul></div></div>",
+          "value": "<p>Aurelia casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC <span class=\"rd__dc\">20</span>):</p><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"Spellcasting\" class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>At will: @UUID[Actor.FYUC86Yhypft1CXY.Item.cdwD7loTMUkvXCvE], @UUID[Actor.FYUC86Yhypft1CXY.Item.MjcYAjebZJ5GSetZ], @UUID[Actor.FYUC86Yhypft1CXY.Item.aBpnPJWYmISal9kH] (4d8 radiant damage), @UUID[Actor.FYUC86Yhypft1CXY.Item.0GvFzarN1YspYNEd], @UUID[Actor.FYUC86Yhypft1CXY.Item.MDZAKouSot7hIPsR]</p></li><li class=\"rd__li  rd__li-spell\"><p>3/day each: @UUID[Actor.FYUC86Yhypft1CXY.Item.qLhJJJnW6U42WQFI], @UUID[Actor.FYUC86Yhypft1CXY.Item.C2hd6cdCbTKdd75o], @UUID[Actor.FYUC86Yhypft1CXY.Item.0sosihSAsXOceJXf], @UUID[Actor.FYUC86Yhypft1CXY.Item.zAgMeHap6fzOiZpr], @UUID[Actor.FYUC86Yhypft1CXY.Item.Z8D3xWITsptbSusw], @UUID[Actor.FYUC86Yhypft1CXY.Item.iOrCmalAt785Kq9K], @UUID[Actor.FYUC86Yhypft1CXY.Item.o0QdU3PIpT2qb9Zy], @UUID[Actor.FYUC86Yhypft1CXY.Item.YOEEqbXr9hJwRAA3], @UUID[Actor.FYUC86Yhypft1CXY.Item.Q64WOaLk56OT9CAe]</p></li><li class=\"rd__li  rd__li-spell\"><p>1/day each: @UUID[Actor.FYUC86Yhypft1CXY.Item.uBCxogB8RWUq2h8E], @UUID[Actor.FYUC86Yhypft1CXY.Item.Fr1Ec6K67cSmgFDr], @UUID[Actor.FYUC86Yhypft1CXY.Item.T9XQnYWzzscnnVrx], @UUID[Actor.FYUC86Yhypft1CXY.Item.ld8EGKtNoqtkIQmo], @UUID[Actor.FYUC86Yhypft1CXY.Item.YobupgBiQ4JZ3JLt], @UUID[Actor.FYUC86Yhypft1CXY.Item.vEZc5LIAFGPPr1je], @UUID[Actor.FYUC86Yhypft1CXY.Item.1a70Sk4aDJhX0UzX], @UUID[Actor.FYUC86Yhypft1CXY.Item.QniVljf8Dj7MQkso], @UUID[Actor.FYUC86Yhypft1CXY.Item.K9z0HrCO8nhwkA9K], @UUID[Actor.FYUC86Yhypft1CXY.Item.vyNAtQPTiOvveuME], @UUID[Actor.FYUC86Yhypft1CXY.Item.4HzCg0eHnKl6TbCE], @UUID[Actor.FYUC86Yhypft1CXY.Item.ugPqjMwIn7RTQjo2], @UUID[Actor.FYUC86Yhypft1CXY.Item.J5bsNsMtdL5wmEgj]</p></li></ul></div></div>",
           "chat": ""
         },
         "requirements": "",
@@ -7315,7 +7315,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.2.5",
         "createdTime": 1774535999095,
-        "modifiedTime": 1774617348927,
+        "modifiedTime": 1774780913981,
         "lastModifiedBy": "R80hbppbUl1u0ueb"
       },
       "folder": null,
@@ -9366,6 +9366,197 @@
       "ownership": {
         "default": 0
       }
+    },
+    {
+      "_id": "aBpnPJWYmISal9kH",
+      "name": "Sacred Flame",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB'14",
+          "page": "272",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take [[/damage 1d8 type=radiant]] damage. The target gains no benefit from cover for this saving throw.</p><p>The spell's damage increases by [[/damage 1d8]] when you reach 5th level ([[/damage 2d8]]), 11th level ([[/damage 3d8]]), and 17th level ([[/damage 4d8]]).</p></div>",
+          "chat": ""
+        },
+        "level": 0,
+        "school": "evo",
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false
+          }
+        },
+        "range": {
+          "value": "60",
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "0",
+          "units": "inst"
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "method": "spell",
+        "prepared": 1,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "save",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "damage": {
+              "onSave": "none",
+              "parts": [
+                {
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "number": 4,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "radiant"
+                  ],
+                  "scaling": {
+                    "mode": "",
+                    "number": 1
+                  }
+                }
+              ]
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "flags": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              },
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "name": ""
+          }
+        },
+        "identifier": "sacred-flame"
+      },
+      "img": "icons/magic/fire/projectile-fireball-orange-green.webp",
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "sacred%20flame_phb",
+          "propDroppable": "spell",
+          "spellClassNames": [
+            "Cleric"
+          ]
+        },
+        "dnd5e": {
+          "last": {
+            "dnd5eactivity000": {
+              "damageType": {
+                "0": "radiant"
+              }
+            }
+          }
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1774780857349,
+        "modifiedTime": 1774780980198,
+        "lastModifiedBy": "R80hbppbUl1u0ueb"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
     }
   ],
   "effects": [],
@@ -9396,10 +9587,10 @@
     "systemId": "dnd5e",
     "systemVersion": "5.2.5",
     "createdTime": 1774521628325,
-    "modifiedTime": 1774612096910,
+    "modifiedTime": 1774761896156,
     "lastModifiedBy": "R80hbppbUl1u0ueb"
   },
   "ownership": {
-    "default": 1
+    "default": 2
   }
 }

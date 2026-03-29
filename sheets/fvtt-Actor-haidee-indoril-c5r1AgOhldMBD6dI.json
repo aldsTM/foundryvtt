@@ -1744,7 +1744,7 @@
         },
         "requirements": "",
         "uses": {
-          "max": "3",
+          "max": "1",
           "recovery": [
             {
               "period": "day",
@@ -1848,7 +1848,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.2.5",
         "lastModifiedBy": "R80hbppbUl1u0ueb",
-        "modifiedTime": 1774454617470
+        "modifiedTime": 1774747132583
       },
       "folder": null,
       "sort": 0,
@@ -4297,7 +4297,11 @@
   ],
   "effects": [],
   "flags": {
-    "dnd5e": {}
+    "dnd5e": {},
+    "ginzzzu-portraits": {
+      "favorite": true,
+      "portraitShown": false
+    }
   },
   "_stats": {
     "compendiumSource": "Actor.wurk91kCoJtoLLLX",
@@ -4313,7 +4317,7 @@
     "systemId": "dnd5e",
     "systemVersion": "5.2.5",
     "createdTime": 1774449169035,
-    "modifiedTime": 1774521767055,
+    "modifiedTime": 1774538185277,
     "lastModifiedBy": "R80hbppbUl1u0ueb"
   },
   "ownership": {

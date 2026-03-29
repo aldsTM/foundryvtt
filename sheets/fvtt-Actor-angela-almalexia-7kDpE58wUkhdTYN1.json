@@ -511,11 +511,11 @@
         "spent": 0
       },
       "hp": {
-        "max": 97,
+        "max": 91,
         "temp": null,
         "tempmax": null,
-        "value": 97,
-        "formula": "15d8+30",
+        "value": 91,
+        "formula": "14d8+28",
         "dt": null
       },
       "death": {
@@ -4735,7 +4735,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.2.5",
         "lastModifiedBy": "R80hbppbUl1u0ueb",
-        "modifiedTime": 1774664630001
+        "modifiedTime": 1774779146876
       },
       "folder": null,
       "sort": 0,
@@ -5012,7 +5012,7 @@
           "revision": 1
         },
         "description": {
-          "value": "<p>Angela casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC <span class=\"rd__dc\">17</span>):</p><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"Spellcasting\" class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>At will: @UUID[Actor.7kDpE58wUkhdTYN1.Item.MjcYAjebZJ5GSetZ], @UUID[Actor.7kDpE58wUkhdTYN1.Item.mjD9tPUIac6Ub0Wx], @UUID[Actor.7kDpE58wUkhdTYN1.Item.0GvFzarN1YspYNEd], @UUID[Actor.7kDpE58wUkhdTYN1.Item.MDZAKouSot7hIPsR]</p></li><li class=\"rd__li  rd__li-spell\"><p>2/day each: @UUID[Actor.7kDpE58wUkhdTYN1.Item.qLhJJJnW6U42WQFI], @UUID[Actor.7kDpE58wUkhdTYN1.Item.C2hd6cdCbTKdd75o], @UUID[Actor.7kDpE58wUkhdTYN1.Item.0sosihSAsXOceJXf], @UUID[Actor.7kDpE58wUkhdTYN1.Item.zAgMeHap6fzOiZpr], @UUID[Actor.7kDpE58wUkhdTYN1.Item.Z8D3xWITsptbSusw], @UUID[Actor.7kDpE58wUkhdTYN1.Item.iOrCmalAt785Kq9K], @UUID[Actor.7kDpE58wUkhdTYN1.Item.o0QdU3PIpT2qb9Zy], @UUID[Actor.7kDpE58wUkhdTYN1.Item.Y4mpk8EQsGNFkwX3], @UUID[Actor.7kDpE58wUkhdTYN1.Item.Q64WOaLk56OT9CAe]</p></li><li class=\"rd__li  rd__li-spell\"><p>1/day each: @UUID[Actor.7kDpE58wUkhdTYN1.Item.Fr1Ec6K67cSmgFDr], @UUID[Actor.7kDpE58wUkhdTYN1.Item.YobupgBiQ4JZ3JLt], @UUID[Actor.7kDpE58wUkhdTYN1.Item.vEZc5LIAFGPPr1je], @UUID[Actor.7kDpE58wUkhdTYN1.Item.QniVljf8Dj7MQkso], @UUID[Actor.7kDpE58wUkhdTYN1.Item.WIPxXC9B6hUOjtQ2], @UUID[Actor.7kDpE58wUkhdTYN1.Item.4HzCg0eHnKl6TbCE], @UUID[Actor.7kDpE58wUkhdTYN1.Item.J5bsNsMtdL5wmEgj]</p></li></ul></div></div>",
+          "value": "<p>Angela casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC <span class=\"rd__dc\">17</span>):</p><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"Spellcasting\" class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>At will: @UUID[Actor.7kDpE58wUkhdTYN1.Item.MjcYAjebZJ5GSetZ], @UUID[Actor.7kDpE58wUkhdTYN1.Item.mjD9tPUIac6Ub0Wx], @UUID[Actor.7kDpE58wUkhdTYN1.Item.KjF64N4X5UBCGquJ] (3d8 radiant damage), @UUID[Actor.7kDpE58wUkhdTYN1.Item.0GvFzarN1YspYNEd], @UUID[Actor.7kDpE58wUkhdTYN1.Item.MDZAKouSot7hIPsR]</p></li><li class=\"rd__li  rd__li-spell\"><p>2/day each: @UUID[Actor.7kDpE58wUkhdTYN1.Item.qLhJJJnW6U42WQFI], @UUID[Actor.7kDpE58wUkhdTYN1.Item.C2hd6cdCbTKdd75o], @UUID[Actor.7kDpE58wUkhdTYN1.Item.0sosihSAsXOceJXf], @UUID[Actor.7kDpE58wUkhdTYN1.Item.zAgMeHap6fzOiZpr], @UUID[Actor.7kDpE58wUkhdTYN1.Item.Z8D3xWITsptbSusw], @UUID[Actor.7kDpE58wUkhdTYN1.Item.iOrCmalAt785Kq9K], @UUID[Actor.7kDpE58wUkhdTYN1.Item.o0QdU3PIpT2qb9Zy], @UUID[Actor.7kDpE58wUkhdTYN1.Item.Y4mpk8EQsGNFkwX3], @UUID[Actor.7kDpE58wUkhdTYN1.Item.Q64WOaLk56OT9CAe]</p></li><li class=\"rd__li  rd__li-spell\"><p>1/day each: @UUID[Actor.7kDpE58wUkhdTYN1.Item.Fr1Ec6K67cSmgFDr], @UUID[Actor.7kDpE58wUkhdTYN1.Item.YobupgBiQ4JZ3JLt], @UUID[Actor.7kDpE58wUkhdTYN1.Item.vEZc5LIAFGPPr1je], @UUID[Actor.7kDpE58wUkhdTYN1.Item.QniVljf8Dj7MQkso], @UUID[Actor.7kDpE58wUkhdTYN1.Item.WIPxXC9B6hUOjtQ2], @UUID[Actor.7kDpE58wUkhdTYN1.Item.4HzCg0eHnKl6TbCE], @UUID[Actor.7kDpE58wUkhdTYN1.Item.J5bsNsMtdL5wmEgj]</p></li></ul></div></div>",
           "chat": ""
         },
         "requirements": "",
@@ -5283,7 +5283,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.2.5",
         "lastModifiedBy": "R80hbppbUl1u0ueb",
-        "modifiedTime": 1774617582253
+        "modifiedTime": 1774780752418
       },
       "folder": null,
       "sort": 0,
@@ -7881,6 +7881,197 @@
       "ownership": {
         "default": 0
       }
+    },
+    {
+      "_id": "KjF64N4X5UBCGquJ",
+      "name": "Sacred Flame",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB'14",
+          "page": "272",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Flame-like radiance descends on a creature that you can see within range. The target must succeed on a Dexterity saving throw or take [[/damage 1d8 type=radiant]] damage. The target gains no benefit from cover for this saving throw.</p><p>The spell's damage increases by [[/damage 1d8]] when you reach 5th level ([[/damage 2d8]]), 11th level ([[/damage 3d8]]), and 17th level ([[/damage 4d8]]).</p></div>",
+          "chat": ""
+        },
+        "level": 0,
+        "school": "evo",
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft"
+          },
+          "affects": {
+            "count": "1",
+            "type": "creature",
+            "choice": false
+          }
+        },
+        "range": {
+          "value": "60",
+          "units": "ft"
+        },
+        "activation": {
+          "type": "action",
+          "value": 1,
+          "condition": ""
+        },
+        "duration": {
+          "value": "0",
+          "units": "inst"
+        },
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "method": "spell",
+        "prepared": 1,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "save",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "damage": {
+              "onSave": "none",
+              "parts": [
+                {
+                  "custom": {
+                    "enabled": false,
+                    "formula": ""
+                  },
+                  "number": 3,
+                  "denomination": 8,
+                  "bonus": "",
+                  "types": [
+                    "radiant"
+                  ],
+                  "scaling": {
+                    "mode": "",
+                    "number": 1
+                  }
+                }
+              ]
+            },
+            "save": {
+              "ability": [
+                "dex"
+              ],
+              "dc": {
+                "calculation": "spellcasting",
+                "formula": ""
+              }
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "sort": 0,
+            "flags": {},
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              },
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "name": ""
+          }
+        },
+        "identifier": "sacred-flame"
+      },
+      "img": "icons/magic/fire/projectile-fireball-orange-green.webp",
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "sacred%20flame_phb",
+          "propDroppable": "spell",
+          "spellClassNames": [
+            "Cleric"
+          ]
+        },
+        "dnd5e": {
+          "last": {
+            "dnd5eactivity000": {
+              "damageType": {
+                "0": "radiant"
+              }
+            }
+          }
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1774780579922,
+        "modifiedTime": 1774780961500,
+        "lastModifiedBy": "R80hbppbUl1u0ueb"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
     }
   ],
   "effects": [],
@@ -7911,10 +8102,10 @@
     "systemId": "dnd5e",
     "systemVersion": "5.2.5",
     "createdTime": 1774608609966,
-    "modifiedTime": 1774664400611,
+    "modifiedTime": 1774785853138,
     "lastModifiedBy": "R80hbppbUl1u0ueb"
   },
   "ownership": {
-    "default": 1
+    "default": 2
   }
 }
