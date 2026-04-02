@@ -2,7 +2,7 @@
   "folder": "1BMymkxpxgetR3Rv",
   "name": "Aveline Almalexia",
   "type": "npc",
-  "img": "https://raw.githubusercontent.com/aldsTM/foundryvtt/refs/heads/main/portraits/aveline%20almalexia%20portrait.png",
+  "img": "https://raw.githubusercontent.com/aldsTM/foundryvtt/refs/heads/main/portraits/aveline%20almalexia%20portrait%20wingless.png",
   "system": {
     "currency": {
       "pp": 0,
@@ -2539,7 +2539,7 @@
           "revision": 1
         },
         "description": {
-          "value": "<p>Aveline casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC <span class=\"rd__dc\">17</span>):</p><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"Spellcasting\" class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>1/day each: @UUID[Actor.FYUC86Yhypft1CXY.Item.qLhJJJnW6U42WQFI], @UUID[Actor.FYUC86Yhypft1CXY.Item.C2hd6cdCbTKdd75o], @UUID[Actor.FYUC86Yhypft1CXY.Item.zAgMeHap6fzOiZpr], @UUID[Actor.FYUC86Yhypft1CXY.Item.Fr1Ec6K67cSmgFDr], @UUID[Actor.cU3GbN4qiCK6G0tL.Item.MEtQotbeaosPMCGZ], @UUID[Actor.FYUC86Yhypft1CXY.Item.QniVljf8Dj7MQkso], @UUID[Actor.FYUC86Yhypft1CXY.Item.YOEEqbXr9hJwRAA3], @UUID[Actor.FYUC86Yhypft1CXY.Item.Q64WOaLk56OT9CAe]</p></li></ul></div></div>",
+          "value": "<p>Aveline casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC <span class=\"rd__dc\">17</span>):</p><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"Spellcasting\" class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>1/day each: @UUID[Actor.FYUC86Yhypft1CXY.Item.qLhJJJnW6U42WQFI], @UUID[Actor.FYUC86Yhypft1CXY.Item.C2hd6cdCbTKdd75o], @UUID[Actor.FYUC86Yhypft1CXY.Item.zAgMeHap6fzOiZpr], @UUID[Actor.FYUC86Yhypft1CXY.Item.Fr1Ec6K67cSmgFDr], @UUID[Actor.cU3GbN4qiCK6G0tL.Item.MEtQotbeaosPMCGZ], @UUID[Actor.FYUC86Yhypft1CXY.Item.QniVljf8Dj7MQkso], @UUID[Actor.FYUC86Yhypft1CXY.Item.Q64WOaLk56OT9CAe]</p></li></ul></div></div>",
           "chat": ""
         },
         "requirements": "",
@@ -2810,7 +2810,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.2.5",
         "lastModifiedBy": "R80hbppbUl1u0ueb",
-        "modifiedTime": 1774787548739
+        "modifiedTime": 1774850845700
       },
       "folder": null,
       "sort": 0,
@@ -3979,220 +3979,6 @@
         "systemVersion": "5.2.5",
         "lastModifiedBy": "R80hbppbUl1u0ueb",
         "modifiedTime": 1774787444277
-      },
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "YOEEqbXr9hJwRAA3",
-      "name": "Prayer of Healing",
-      "type": "spell",
-      "system": {
-        "source": {
-          "custom": "",
-          "book": "PHB 2024",
-          "page": "307",
-          "license": "",
-          "rules": "2024",
-          "revision": 1
-        },
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--3\"><p>Up to five creatures of your choice who remain within range for the spell's entire casting gain the benefits of a @variantrule[Short Rest|XPHB] and also regain [[/r 2d8]] @variantrule[Hit Points|XPHB]. A creature can't be affected by this spell again until that creature finishes a @variantrule[Long Rest|XPHB].</p></div><div class=\"rd__b  rd__b--3\"><p></p><div data-roll-name-ancestor=\"Using a Higher-Level Spell Slot\" class=\"rd__b  rd__b--3\"><p><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner \">Using a Higher-Level Spell Slot.</span></span> The healing increases by [[/r 1d8]] for each spell slot level above 2.</p></div></div>",
-          "chat": ""
-        },
-        "level": 2,
-        "school": "abj",
-        "properties": [
-          "vocal"
-        ],
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "target": {
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": "ft"
-          },
-          "affects": {
-            "count": "5",
-            "type": "creature",
-            "choice": true,
-            "special": ""
-          }
-        },
-        "range": {
-          "value": "30",
-          "units": "ft",
-          "special": ""
-        },
-        "activation": {
-          "type": "minute",
-          "value": 10,
-          "condition": ""
-        },
-        "duration": {
-          "value": "0",
-          "units": "inst"
-        },
-        "uses": {
-          "max": "1",
-          "recovery": [
-            {
-              "period": "day",
-              "type": "recoverAll"
-            }
-          ],
-          "spent": 0
-        },
-        "method": "innate",
-        "prepared": 1,
-        "activities": {
-          "dnd5eactivity000": {
-            "type": "heal",
-            "activation": {
-              "type": "action",
-              "override": false
-            },
-            "healing": {
-              "number": 2,
-              "denomination": 8,
-              "types": [
-                "healing"
-              ],
-              "scaling": {
-                "mode": "whole",
-                "number": 1
-              },
-              "custom": {
-                "enabled": false
-              }
-            },
-            "effects": [
-              {
-                "_id": "prayerOfHealingx",
-                "level": {}
-              }
-            ],
-            "_id": "dnd5eactivity000",
-            "target": {
-              "prompt": true,
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "override": false
-            },
-            "sort": 0,
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": []
-            },
-            "description": {},
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "flags": {},
-            "range": {
-              "units": "self",
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "visibility": {
-              "level": {},
-              "requireAttunement": false,
-              "requireIdentification": false,
-              "requireMagic": false
-            }
-          }
-        },
-        "identifier": "prayer-of-healing",
-        "sourceClass": "",
-        "ability": ""
-      },
-      "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
-      "flags": {
-        "plutonium": {
-          "page": "spells.html",
-          "source": "XPHB",
-          "hash": "prayer%20of%20healing_xphb",
-          "propDroppable": "spell",
-          "spellClassNames": [
-            "Cleric",
-            "Paladin"
-          ]
-        }
-      },
-      "effects": [
-        {
-          "_id": "prayerOfHealingx",
-          "name": "Healed by Prayer",
-          "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>A creature can't be affected by the <a href=\"https://5e.tools/spells.html#prayer%20of%20healing_xphb\" data-vet-page=\"spells.html\" data-vet-source=\"XPHB\" data-vet-hash=\"prayer%20of%20healing_xphb\">Prayer of Healing</a> spell again until that creature finishes a Long Rest.</p></div>",
-          "changes": [],
-          "statuses": [],
-          "disabled": false,
-          "duration": {
-            "startTime": null,
-            "seconds": null,
-            "rounds": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null,
-            "combat": null
-          },
-          "origin": null,
-          "transfer": false,
-          "flags": {
-            "plutonium": {
-              "dedupeId": "healed-by-prayer"
-            }
-          },
-          "type": "base",
-          "system": {},
-          "tint": "#ffffff",
-          "sort": 0,
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null,
-            "coreVersion": "13.351",
-            "systemId": "dnd5e",
-            "systemVersion": "5.2.5",
-            "lastModifiedBy": null
-          }
-        }
-      ],
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "dnd5e",
-        "systemVersion": "5.2.5",
-        "lastModifiedBy": "R80hbppbUl1u0ueb",
-        "modifiedTime": 1774787484455
       },
       "folder": null,
       "sort": 0,
@@ -5374,9 +5160,7 @@
   ],
   "effects": [],
   "flags": {
-    "dnd5e": {
-      "showTokenPortrait": true
-    },
+    "dnd5e": {},
     "5e-statblock-sheet": {
       "sheetPrefs": {
         "visibleBiography": false
@@ -5385,7 +5169,9 @@
     "ginzzzu-portraits": {
       "portraitShown": false,
       "portraitFlipX": false,
-      "favorite": true
+      "favorite": true,
+      "portraitEmotion": null,
+      "emotionHeightMultiplier": null
     }
   },
   "_stats": {
@@ -5402,7 +5188,7 @@
     "systemId": "dnd5e",
     "systemVersion": "5.2.5",
     "createdTime": 1774786733809,
-    "modifiedTime": 1774790399199,
+    "modifiedTime": 1775074281715,
     "lastModifiedBy": "R80hbppbUl1u0ueb"
   },
   "ownership": {

@@ -5179,914 +5179,6 @@
       }
     },
     {
-      "_id": "d3TCjFcSF4a4wVgy",
-      "name": "Protective Magic",
-      "type": "feat",
-      "system": {
-        "source": {
-          "custom": "",
-          "book": "MM'25",
-          "page": "199",
-          "license": "",
-          "rules": "2024",
-          "revision": 1
-        },
-        "description": {
-          "value": "<p>Amelia casts @UUID[Actor.WYbmblEYGvZfFegg.Item.dlnZ8JyvNYJC6drD] or @UUID[Actor.WYbmblEYGvZfFegg.Item.KUnl1xTM7rRwt7AQ] in response to the spell's trigger, using the same spellcasting ability as Spellcasting.</p>",
-          "chat": ""
-        },
-        "requirements": "",
-        "uses": {
-          "max": "3",
-          "recovery": [
-            {
-              "period": "day",
-              "type": "recoverAll"
-            }
-          ],
-          "spent": 0
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "properties": [],
-        "advancement": [],
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "cast",
-            "activation": {
-              "type": "reaction",
-              "value": 1,
-              "override": false
-            },
-            "spell": {
-              "uuid": "Actor.D8Jki67Th1lRyIKB.Item.Sc7gBBuhyD51qRg0",
-              "spellbook": false,
-              "properties": [],
-              "challenge": {
-                "override": false
-              }
-            },
-            "target": {
-              "prompt": true,
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "override": false
-            },
-            "sort": 0,
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": []
-            },
-            "description": {},
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "flags": {},
-            "range": {
-              "units": "self",
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "visibility": {
-              "level": {},
-              "requireAttunement": false,
-              "requireIdentification": false,
-              "requireMagic": false
-            }
-          },
-          "dnd5eactivity001": {
-            "_id": "dnd5eactivity001",
-            "type": "cast",
-            "activation": {
-              "type": "reaction",
-              "value": 1,
-              "override": false
-            },
-            "spell": {
-              "uuid": "Actor.WYbmblEYGvZfFegg.Item.dlnZ8JyvNYJC6drD",
-              "spellbook": false,
-              "properties": [],
-              "challenge": {
-                "override": false
-              },
-              "ability": ""
-            },
-            "target": {
-              "prompt": true,
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "override": false
-            },
-            "sort": 0,
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": []
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "flags": {},
-            "range": {
-              "units": "self",
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [],
-              "max": ""
-            },
-            "visibility": {
-              "level": {
-                "min": null,
-                "max": null
-              },
-              "requireAttunement": false,
-              "requireIdentification": false,
-              "requireMagic": false,
-              "identifier": ""
-            },
-            "name": ""
-          },
-          "Ivl2OuEMqSoPVSNB": {
-            "type": "cast",
-            "activation": {
-              "type": "reaction",
-              "value": 1,
-              "override": false
-            },
-            "spell": {
-              "uuid": "Actor.D8Jki67Th1lRyIKB.Item.bBwoqllHirRUyNRY",
-              "spellbook": false,
-              "properties": [],
-              "challenge": {
-                "override": false
-              }
-            },
-            "target": {
-              "prompt": true,
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "override": false
-            },
-            "sort": 0,
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": []
-            },
-            "description": {},
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "flags": {},
-            "range": {
-              "units": "self",
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "visibility": {
-              "level": {},
-              "requireAttunement": false,
-              "requireIdentification": false,
-              "requireMagic": false
-            },
-            "_id": "Ivl2OuEMqSoPVSNB"
-          }
-        },
-        "identifier": "protective-magic",
-        "crewed": false,
-        "enchant": {},
-        "prerequisites": {
-          "items": [],
-          "repeatable": false,
-          "level": null
-        }
-      },
-      "img": "modules/plutonium/media/icon/spell-book.svg",
-      "flags": {
-        "plutonium": {
-          "page": "monsterSpellcasting",
-          "source": "XMM",
-          "hash": "protective%20magic%20(3%2fday)_archmage_xmm_xmm"
-        }
-      },
-      "effects": [],
-      "_stats": {
-        "compendiumSource": "Actor.D8Jki67Th1lRyIKB.Item.zxjYYbWQN6VnpW3o",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "dnd5e",
-        "systemVersion": "5.2.5",
-        "createdTime": 1773416490989,
-        "modifiedTime": 1774117918120,
-        "lastModifiedBy": "R80hbppbUl1u0ueb"
-      },
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Counterspell",
-      "type": "spell",
-      "system": {
-        "source": {
-          "custom": "",
-          "book": "PHB 2024",
-          "page": "258",
-          "license": "",
-          "rules": "2024",
-          "revision": 1
-        },
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--3\"><p>You attempt to interrupt a creature in the process of casting a spell. The creature makes a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, @variantrule[Bonus Action|XPHB], or @variantrule[Reaction|XPHB] used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended.</p></div>",
-          "chat": ""
-        },
-        "level": 3,
-        "school": "abj",
-        "properties": [
-          "somatic"
-        ],
-        "ability": "int",
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "target": {
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": "ft"
-          },
-          "affects": {
-            "count": "",
-            "type": "creature",
-            "choice": false,
-            "special": ""
-          }
-        },
-        "range": {
-          "value": "60",
-          "units": "ft"
-        },
-        "activation": {
-          "type": "reaction",
-          "value": 1,
-          "condition": "which you take when you see a creature within 60 feet of yourself casting a spell with Verbal, Somatic, or Material components"
-        },
-        "duration": {
-          "value": "0",
-          "units": "inst"
-        },
-        "uses": {
-          "max": "3",
-          "recovery": [
-            {
-              "period": "day",
-              "type": "recoverAll"
-            }
-          ],
-          "spent": 0
-        },
-        "method": "innate",
-        "prepared": 1,
-        "activities": {
-          "dnd5eactivity000": {
-            "type": "save",
-            "activation": {
-              "type": "action",
-              "override": false
-            },
-            "damage": {
-              "onSave": "half",
-              "parts": []
-            },
-            "save": {
-              "ability": [
-                "con"
-              ],
-              "dc": {
-                "calculation": "spellcasting"
-              }
-            },
-            "_id": "dnd5eactivity000",
-            "target": {
-              "prompt": true,
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "override": false
-            },
-            "sort": 0,
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": []
-            },
-            "description": {},
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "flags": {},
-            "range": {
-              "units": "self",
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "visibility": {
-              "level": {},
-              "requireAttunement": false,
-              "requireIdentification": false,
-              "requireMagic": false
-            }
-          }
-        },
-        "identifier": "counterspell"
-      },
-      "img": "icons/magic/unholy/hands-cloud-light-pink.webp",
-      "flags": {
-        "plutonium": {
-          "page": "spells.html",
-          "source": "XPHB",
-          "hash": "counterspell_xphb",
-          "propDroppable": "spell",
-          "spellClassNames": [
-            "Sorcerer",
-            "Warlock",
-            "Wizard"
-          ]
-        },
-        "dnd5e": {
-          "cachedFor": ".Item.d3TCjFcSF4a4wVgy.Activity.dnd5eactivity000"
-        }
-      },
-      "effects": [
-        {
-          "_id": "dnd5espellchange",
-          "type": "enchantment",
-          "name": "Spell Changes",
-          "img": "systems/dnd5e/icons/svg/activity/cast.svg",
-          "origin": "Actor.WYbmblEYGvZfFegg.Item.d3TCjFcSF4a4wVgy.Activity.dnd5eactivity000",
-          "changes": [
-            {
-              "key": "system.method",
-              "mode": 5,
-              "value": "spell"
-            }
-          ],
-          "system": {},
-          "disabled": false,
-          "duration": {
-            "startTime": 84,
-            "combat": null
-          },
-          "description": "",
-          "tint": "#ffffff",
-          "transfer": true,
-          "statuses": [],
-          "sort": 0,
-          "flags": {},
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null,
-            "coreVersion": "13.351",
-            "systemId": "dnd5e",
-            "systemVersion": "5.2.5",
-            "lastModifiedBy": null
-          }
-        }
-      ],
-      "_stats": {
-        "compendiumSource": "Actor.D8Jki67Th1lRyIKB.Item.Sc7gBBuhyD51qRg0",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "dnd5e",
-        "systemVersion": "5.2.5",
-        "createdTime": 1773416491040,
-        "modifiedTime": 1773416491040,
-        "lastModifiedBy": "R80hbppbUl1u0ueb"
-      },
-      "folder": null,
-      "sort": 0,
-      "_id": "WRsJ8HCLbqNDzASY",
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Feather Fall",
-      "type": "spell",
-      "system": {
-        "source": {
-          "custom": "",
-          "book": "PHB'14",
-          "page": "239",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--3\"><p>Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature.</p></div>",
-          "chat": ""
-        },
-        "level": 1,
-        "school": "trs",
-        "properties": [
-          "vocal",
-          "material"
-        ],
-        "materials": {
-          "value": "a small feather or a piece of down",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "target": {
-          "template": {
-            "contiguous": false,
-            "units": "ft",
-            "type": ""
-          },
-          "affects": {
-            "count": "5",
-            "type": "creature",
-            "choice": false,
-            "special": ""
-          }
-        },
-        "range": {
-          "value": "60",
-          "units": "ft",
-          "special": ""
-        },
-        "activation": {
-          "type": "reaction",
-          "value": 1,
-          "condition": "which you take when you or a creature within 60 feet of you falls"
-        },
-        "duration": {
-          "value": "1",
-          "units": "minute"
-        },
-        "uses": {
-          "max": "3",
-          "recovery": [
-            {
-              "period": "day",
-              "type": "recoverAll"
-            }
-          ],
-          "spent": 0
-        },
-        "method": "innate",
-        "prepared": 1,
-        "activities": {
-          "dnd5eactivity000": {
-            "_id": "dnd5eactivity000",
-            "type": "utility",
-            "activation": {
-              "type": "action",
-              "value": null,
-              "override": false
-            },
-            "consumption": {
-              "targets": [],
-              "scaling": {
-                "allowed": false,
-                "max": ""
-              },
-              "spellSlot": true
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "override": false,
-              "units": "self"
-            },
-            "target": {
-              "prompt": true,
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "override": false
-            },
-            "roll": {
-              "formula": "",
-              "name": "",
-              "prompt": false,
-              "visible": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "sort": 0,
-            "flags": {},
-            "visibility": {
-              "level": {},
-              "requireAttunement": false,
-              "requireIdentification": false,
-              "requireMagic": false
-            }
-          }
-        },
-        "identifier": "feather-fall",
-        "ability": "",
-        "sourceClass": ""
-      },
-      "img": "icons/commodities/materials/feather-white-glowing-fire.webp",
-      "flags": {
-        "plutonium": {
-          "page": "spells.html",
-          "source": "PHB",
-          "hash": "feather%20fall_phb",
-          "propDroppable": "spell",
-          "spellClassNames": [
-            "Bard",
-            "Sorcerer",
-            "Wizard",
-            "Artificer"
-          ]
-        },
-        "dnd5e": {
-          "cachedFor": ".Item.d3TCjFcSF4a4wVgy.Activity.dnd5eactivity001"
-        }
-      },
-      "effects": [
-        {
-          "_id": "dnd5espellchange",
-          "type": "enchantment",
-          "name": "Spell Changes",
-          "img": "systems/dnd5e/icons/svg/activity/cast.svg",
-          "origin": "Actor.WYbmblEYGvZfFegg.Item.d3TCjFcSF4a4wVgy.Activity.dnd5eactivity001",
-          "changes": [
-            {
-              "key": "system.method",
-              "mode": 5,
-              "value": "spell"
-            }
-          ],
-          "system": {},
-          "disabled": false,
-          "duration": {
-            "startTime": 84,
-            "combat": null
-          },
-          "description": "",
-          "tint": "#ffffff",
-          "transfer": true,
-          "statuses": [],
-          "sort": 0,
-          "flags": {},
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null,
-            "coreVersion": "13.351",
-            "systemId": "dnd5e",
-            "systemVersion": "5.2.5",
-            "lastModifiedBy": null
-          }
-        }
-      ],
-      "_stats": {
-        "compendiumSource": "Actor.WYbmblEYGvZfFegg.Item.dlnZ8JyvNYJC6drD",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "dnd5e",
-        "systemVersion": "5.2.5",
-        "createdTime": 1773416491040,
-        "modifiedTime": 1773416491040,
-        "lastModifiedBy": "R80hbppbUl1u0ueb"
-      },
-      "folder": null,
-      "sort": 0,
-      "_id": "ejac9HWmzzTHN62M",
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Shield",
-      "type": "spell",
-      "system": {
-        "source": {
-          "custom": "",
-          "book": "PHB 2024",
-          "page": "316",
-          "license": "",
-          "rules": "2024",
-          "revision": 1
-        },
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--3\"><p>An imperceptible barrier of magical force protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from @spell[Magic Missile|XPHB].</p></div>",
-          "chat": ""
-        },
-        "level": 1,
-        "school": "abj",
-        "properties": [
-          "vocal",
-          "somatic"
-        ],
-        "ability": "int",
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "target": {
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": "ft"
-          },
-          "affects": {
-            "count": "",
-            "type": "",
-            "choice": false,
-            "special": ""
-          }
-        },
-        "range": {
-          "value": "0",
-          "units": "self"
-        },
-        "activation": {
-          "type": "reaction",
-          "value": 1,
-          "condition": "which you take when you are hit by an attack roll or targeted by the Magic Missile spell"
-        },
-        "duration": {
-          "value": "1",
-          "units": "round"
-        },
-        "uses": {
-          "max": "3",
-          "recovery": [
-            {
-              "period": "day",
-              "type": "recoverAll"
-            }
-          ],
-          "spent": 0
-        },
-        "method": "innate",
-        "prepared": 1,
-        "activities": {
-          "dnd5eactivity000": {
-            "type": "utility",
-            "activation": {
-              "type": "action",
-              "override": false
-            },
-            "effects": [
-              {
-                "_id": "shieldxxxxxxxxxx",
-                "level": {}
-              }
-            ],
-            "_id": "dnd5eactivity000",
-            "target": {
-              "prompt": true,
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "override": false
-            },
-            "sort": 0,
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": []
-            },
-            "description": {},
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "flags": {},
-            "range": {
-              "units": "self",
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "visibility": {
-              "level": {},
-              "requireAttunement": false,
-              "requireIdentification": false,
-              "requireMagic": false
-            },
-            "roll": {
-              "prompt": false,
-              "visible": false
-            }
-          }
-        },
-        "identifier": "shield"
-      },
-      "img": "icons/equipment/shield/kite-wooden-oak-glow.webp",
-      "flags": {
-        "plutonium": {
-          "page": "spells.html",
-          "source": "XPHB",
-          "hash": "shield_xphb",
-          "propDroppable": "spell",
-          "spellClassNames": [
-            "Sorcerer",
-            "Wizard"
-          ]
-        },
-        "dnd5e": {
-          "cachedFor": ".Item.d3TCjFcSF4a4wVgy.Activity.Ivl2OuEMqSoPVSNB"
-        }
-      },
-      "effects": [
-        {
-          "_id": "shieldxxxxxxxxxx",
-          "name": "Imperceptible Barrier",
-          "img": "icons/equipment/shield/kite-wooden-oak-glow.webp",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <i>Magic Missile</i>.</p></div>",
-          "changes": [
-            {
-              "key": "system.attributes.ac.bonus",
-              "mode": 2,
-              "value": "5",
-              "priority": 7
-            }
-          ],
-          "statuses": [],
-          "disabled": true,
-          "duration": {
-            "rounds": 1,
-            "startTime": null,
-            "combat": null
-          },
-          "origin": null,
-          "transfer": false,
-          "flags": {
-            "plutonium": {
-              "dedupeId": "imperceptible-barrier"
-            }
-          },
-          "type": "base",
-          "system": {},
-          "tint": "#ffffff",
-          "sort": 0,
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null,
-            "coreVersion": "13.351",
-            "systemId": "dnd5e",
-            "systemVersion": "5.2.5",
-            "lastModifiedBy": null
-          }
-        },
-        {
-          "_id": "dnd5espellchange",
-          "type": "enchantment",
-          "name": "Spell Changes",
-          "img": "systems/dnd5e/icons/svg/activity/cast.svg",
-          "origin": "Actor.WYbmblEYGvZfFegg.Item.d3TCjFcSF4a4wVgy.Activity.Ivl2OuEMqSoPVSNB",
-          "changes": [
-            {
-              "key": "system.method",
-              "mode": 5,
-              "value": "spell"
-            }
-          ],
-          "system": {},
-          "disabled": false,
-          "duration": {
-            "startTime": 84,
-            "combat": null
-          },
-          "description": "",
-          "tint": "#ffffff",
-          "transfer": true,
-          "statuses": [],
-          "sort": 0,
-          "flags": {},
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null,
-            "coreVersion": "13.351",
-            "systemId": "dnd5e",
-            "systemVersion": "5.2.5",
-            "lastModifiedBy": null
-          }
-        }
-      ],
-      "_stats": {
-        "compendiumSource": "Actor.D8Jki67Th1lRyIKB.Item.bBwoqllHirRUyNRY",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "dnd5e",
-        "systemVersion": "5.2.5",
-        "createdTime": 1773416491040,
-        "modifiedTime": 1773416491040,
-        "lastModifiedBy": "R80hbppbUl1u0ueb"
-      },
-      "folder": null,
-      "sort": 0,
-      "_id": "8Xen3NJh0lZbmG6x",
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
       "_id": "QLxNK4WPw1T7Khgg",
       "name": "Leomund's Tiny Hut",
       "type": "spell",
@@ -9272,6 +8364,914 @@
       "ownership": {
         "default": 0
       }
+    },
+    {
+      "_id": "kAgjFAIleNUuPxSu",
+      "name": "Protective Magic",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "MM'25",
+          "page": "199",
+          "license": "",
+          "rules": "2024",
+          "revision": 1
+        },
+        "description": {
+          "value": "<p>Amelia casts @UUID[Actor.WYbmblEYGvZfFegg.Item.dlnZ8JyvNYJC6drD] or @UUID[Actor.WYbmblEYGvZfFegg.Item.KUnl1xTM7rRwt7AQ] in response to the spell's trigger, using the same spellcasting ability as Spellcasting.</p>",
+          "chat": ""
+        },
+        "requirements": "",
+        "uses": {
+          "max": "3",
+          "recovery": [
+            {
+              "period": "day",
+              "type": "recoverAll"
+            }
+          ],
+          "spent": 0
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "advancement": [],
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "cast",
+            "activation": {
+              "type": "reaction",
+              "value": 1,
+              "override": false
+            },
+            "spell": {
+              "uuid": "Actor.D8Jki67Th1lRyIKB.Item.Sc7gBBuhyD51qRg0",
+              "spellbook": false,
+              "properties": [],
+              "challenge": {
+                "override": false
+              }
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "sort": 0,
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "flags": {},
+            "range": {
+              "units": "self",
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            }
+          },
+          "dnd5eactivity001": {
+            "_id": "dnd5eactivity001",
+            "type": "cast",
+            "activation": {
+              "type": "reaction",
+              "value": 1,
+              "override": false
+            },
+            "spell": {
+              "uuid": "Actor.WYbmblEYGvZfFegg.Item.dlnZ8JyvNYJC6drD",
+              "spellbook": false,
+              "properties": [],
+              "challenge": {
+                "override": false
+              },
+              "ability": ""
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "sort": 0,
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "flags": {},
+            "range": {
+              "units": "self",
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              },
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false,
+              "identifier": ""
+            },
+            "name": ""
+          },
+          "Ivl2OuEMqSoPVSNB": {
+            "type": "cast",
+            "activation": {
+              "type": "reaction",
+              "value": 1,
+              "override": false
+            },
+            "spell": {
+              "uuid": "Actor.D8Jki67Th1lRyIKB.Item.bBwoqllHirRUyNRY",
+              "spellbook": false,
+              "properties": [],
+              "challenge": {
+                "override": false
+              }
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "sort": 0,
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "flags": {},
+            "range": {
+              "units": "self",
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "_id": "Ivl2OuEMqSoPVSNB"
+          }
+        },
+        "identifier": "protective-magic",
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "items": [],
+          "repeatable": false,
+          "level": null
+        }
+      },
+      "img": "modules/plutonium/media/icon/spell-book.svg",
+      "flags": {
+        "plutonium": {
+          "page": "monsterSpellcasting",
+          "source": "XMM",
+          "hash": "protective%20magic%20(3%2fday)_archmage_xmm_xmm"
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "compendiumSource": "Actor.D8Jki67Th1lRyIKB.Item.zxjYYbWQN6VnpW3o",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1774521500736,
+        "modifiedTime": 1774521500736,
+        "lastModifiedBy": "R80hbppbUl1u0ueb"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Counterspell",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB 2024",
+          "page": "258",
+          "license": "",
+          "rules": "2024",
+          "revision": 1
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>You attempt to interrupt a creature in the process of casting a spell. The creature makes a Constitution saving throw. On a failed save, the spell dissipates with no effect, and the action, @variantrule[Bonus Action|XPHB], or @variantrule[Reaction|XPHB] used to cast it is wasted. If that spell was cast with a spell slot, the slot isn't expended.</p></div>",
+          "chat": ""
+        },
+        "level": 3,
+        "school": "abj",
+        "properties": [
+          "somatic"
+        ],
+        "ability": "int",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "ft"
+          },
+          "affects": {
+            "count": "",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": "60",
+          "units": "ft"
+        },
+        "activation": {
+          "type": "reaction",
+          "value": 1,
+          "condition": "which you take when you see a creature within 60 feet of yourself casting a spell with Verbal, Somatic, or Material components"
+        },
+        "duration": {
+          "value": "0",
+          "units": "inst"
+        },
+        "uses": {
+          "max": "3",
+          "recovery": [
+            {
+              "period": "day",
+              "type": "recoverAll"
+            }
+          ],
+          "spent": 0
+        },
+        "method": "innate",
+        "prepared": 1,
+        "activities": {
+          "dnd5eactivity000": {
+            "type": "save",
+            "activation": {
+              "type": "action",
+              "override": false
+            },
+            "damage": {
+              "onSave": "half",
+              "parts": []
+            },
+            "save": {
+              "ability": [
+                "con"
+              ],
+              "dc": {
+                "calculation": "spellcasting"
+              }
+            },
+            "_id": "dnd5eactivity000",
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "sort": 0,
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "flags": {},
+            "range": {
+              "units": "self",
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            }
+          }
+        },
+        "identifier": "counterspell"
+      },
+      "img": "icons/magic/unholy/hands-cloud-light-pink.webp",
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "XPHB",
+          "hash": "counterspell_xphb",
+          "propDroppable": "spell",
+          "spellClassNames": [
+            "Sorcerer",
+            "Warlock",
+            "Wizard"
+          ]
+        },
+        "dnd5e": {
+          "cachedFor": ".Item.kAgjFAIleNUuPxSu.Activity.dnd5eactivity000"
+        }
+      },
+      "effects": [
+        {
+          "_id": "dnd5espellchange",
+          "type": "enchantment",
+          "name": "Spell Changes",
+          "img": "systems/dnd5e/icons/svg/activity/cast.svg",
+          "origin": "Actor.WYbmblEYGvZfFegg.Item.kAgjFAIleNUuPxSu.Activity.dnd5eactivity000",
+          "changes": [
+            {
+              "key": "system.method",
+              "mode": 5,
+              "value": "spell"
+            }
+          ],
+          "system": {},
+          "disabled": false,
+          "duration": {
+            "startTime": 102,
+            "combat": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "dnd5e",
+            "systemVersion": "5.2.5",
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "_stats": {
+        "compendiumSource": "Actor.D8Jki67Th1lRyIKB.Item.Sc7gBBuhyD51qRg0",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1774521500779,
+        "modifiedTime": 1774521500779,
+        "lastModifiedBy": "R80hbppbUl1u0ueb"
+      },
+      "folder": null,
+      "sort": 0,
+      "_id": "mt227vzj5rQtzgmr",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Feather Fall",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB'14",
+          "page": "239",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Choose up to five falling creatures within range. A falling creature's rate of descent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature.</p></div>",
+          "chat": ""
+        },
+        "level": 1,
+        "school": "trs",
+        "properties": [
+          "vocal",
+          "material"
+        ],
+        "materials": {
+          "value": "a small feather or a piece of down",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "template": {
+            "contiguous": false,
+            "units": "ft",
+            "type": ""
+          },
+          "affects": {
+            "count": "5",
+            "type": "creature",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": "60",
+          "units": "ft",
+          "special": ""
+        },
+        "activation": {
+          "type": "reaction",
+          "value": 1,
+          "condition": "which you take when you or a creature within 60 feet of you falls"
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        },
+        "uses": {
+          "max": "3",
+          "recovery": [
+            {
+              "period": "day",
+              "type": "recoverAll"
+            }
+          ],
+          "spent": 0
+        },
+        "method": "innate",
+        "prepared": 1,
+        "activities": {
+          "dnd5eactivity000": {
+            "_id": "dnd5eactivity000",
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "value": null,
+              "override": false
+            },
+            "consumption": {
+              "targets": [],
+              "scaling": {
+                "allowed": false,
+                "max": ""
+              },
+              "spellSlot": true
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "override": false,
+              "units": "self"
+            },
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "roll": {
+              "formula": "",
+              "name": "",
+              "prompt": false,
+              "visible": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "sort": 0,
+            "flags": {},
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            }
+          }
+        },
+        "identifier": "feather-fall",
+        "sourceClass": "",
+        "ability": ""
+      },
+      "img": "icons/commodities/materials/feather-white-glowing-fire.webp",
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "PHB",
+          "hash": "feather%20fall_phb",
+          "propDroppable": "spell",
+          "spellClassNames": [
+            "Bard",
+            "Sorcerer",
+            "Wizard",
+            "Artificer"
+          ]
+        },
+        "dnd5e": {
+          "cachedFor": ".Item.kAgjFAIleNUuPxSu.Activity.dnd5eactivity001"
+        }
+      },
+      "effects": [
+        {
+          "_id": "dnd5espellchange",
+          "type": "enchantment",
+          "name": "Spell Changes",
+          "img": "systems/dnd5e/icons/svg/activity/cast.svg",
+          "origin": "Actor.WYbmblEYGvZfFegg.Item.kAgjFAIleNUuPxSu.Activity.dnd5eactivity001",
+          "changes": [
+            {
+              "key": "system.method",
+              "mode": 5,
+              "value": "spell"
+            }
+          ],
+          "system": {},
+          "disabled": false,
+          "duration": {
+            "startTime": 102,
+            "combat": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "dnd5e",
+            "systemVersion": "5.2.5",
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "_stats": {
+        "compendiumSource": "Actor.WYbmblEYGvZfFegg.Item.dlnZ8JyvNYJC6drD",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1774521500779,
+        "modifiedTime": 1774521500779,
+        "lastModifiedBy": "R80hbppbUl1u0ueb"
+      },
+      "folder": null,
+      "sort": 0,
+      "_id": "4GBsttzOonJCjqwI",
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Shield",
+      "type": "spell",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "PHB 2024",
+          "page": "316",
+          "license": "",
+          "rules": "2024",
+          "revision": 1
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>An imperceptible barrier of magical force protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from @spell[Magic Missile|XPHB].</p></div>",
+          "chat": ""
+        },
+        "level": 1,
+        "school": "abj",
+        "properties": [
+          "vocal",
+          "somatic"
+        ],
+        "ability": "int",
+        "materials": {
+          "value": "",
+          "consumed": false,
+          "cost": 0,
+          "supply": 0
+        },
+        "target": {
+          "template": {
+            "count": "",
+            "contiguous": false,
+            "type": "",
+            "size": "",
+            "width": "",
+            "height": "",
+            "units": "ft"
+          },
+          "affects": {
+            "count": "",
+            "type": "",
+            "choice": false,
+            "special": ""
+          }
+        },
+        "range": {
+          "value": "0",
+          "units": "self"
+        },
+        "activation": {
+          "type": "reaction",
+          "value": 1,
+          "condition": "which you take when you are hit by an attack roll or targeted by the Magic Missile spell"
+        },
+        "duration": {
+          "value": "1",
+          "units": "round"
+        },
+        "uses": {
+          "max": "3",
+          "recovery": [
+            {
+              "period": "day",
+              "type": "recoverAll"
+            }
+          ],
+          "spent": 0
+        },
+        "method": "innate",
+        "prepared": 1,
+        "activities": {
+          "dnd5eactivity000": {
+            "type": "utility",
+            "activation": {
+              "type": "action",
+              "override": false
+            },
+            "effects": [
+              {
+                "_id": "shieldxxxxxxxxxx",
+                "level": {}
+              }
+            ],
+            "_id": "dnd5eactivity000",
+            "target": {
+              "prompt": true,
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false
+            },
+            "sort": 0,
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "flags": {},
+            "range": {
+              "units": "self",
+              "override": false
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false
+            }
+          }
+        },
+        "identifier": "shield"
+      },
+      "img": "icons/equipment/shield/kite-wooden-oak-glow.webp",
+      "flags": {
+        "plutonium": {
+          "page": "spells.html",
+          "source": "XPHB",
+          "hash": "shield_xphb",
+          "propDroppable": "spell",
+          "spellClassNames": [
+            "Sorcerer",
+            "Wizard"
+          ]
+        },
+        "dnd5e": {
+          "cachedFor": ".Item.kAgjFAIleNUuPxSu.Activity.Ivl2OuEMqSoPVSNB"
+        }
+      },
+      "effects": [
+        {
+          "_id": "shieldxxxxxxxxxx",
+          "name": "Imperceptible Barrier",
+          "img": "icons/equipment/shield/kite-wooden-oak-glow.webp",
+          "description": "<div class=\"rd__b  rd__b--3\"><p>Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from <i>Magic Missile</i>.</p></div>",
+          "changes": [
+            {
+              "key": "system.attributes.ac.bonus",
+              "mode": 2,
+              "value": "5",
+              "priority": 7
+            }
+          ],
+          "statuses": [],
+          "disabled": true,
+          "duration": {
+            "rounds": 1,
+            "startTime": null,
+            "combat": null
+          },
+          "origin": null,
+          "transfer": false,
+          "flags": {
+            "plutonium": {
+              "dedupeId": "imperceptible-barrier"
+            }
+          },
+          "type": "base",
+          "system": {},
+          "tint": "#ffffff",
+          "sort": 0,
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "dnd5e",
+            "systemVersion": "5.2.5",
+            "lastModifiedBy": null
+          }
+        },
+        {
+          "_id": "dnd5espellchange",
+          "type": "enchantment",
+          "name": "Spell Changes",
+          "img": "systems/dnd5e/icons/svg/activity/cast.svg",
+          "origin": "Actor.WYbmblEYGvZfFegg.Item.kAgjFAIleNUuPxSu.Activity.Ivl2OuEMqSoPVSNB",
+          "changes": [
+            {
+              "key": "system.method",
+              "mode": 5,
+              "value": "spell"
+            }
+          ],
+          "system": {},
+          "disabled": false,
+          "duration": {
+            "startTime": 102,
+            "combat": null
+          },
+          "description": "",
+          "tint": "#ffffff",
+          "transfer": true,
+          "statuses": [],
+          "sort": 0,
+          "flags": {},
+          "_stats": {
+            "compendiumSource": null,
+            "duplicateSource": null,
+            "exportSource": null,
+            "coreVersion": "13.351",
+            "systemId": "dnd5e",
+            "systemVersion": "5.2.5",
+            "lastModifiedBy": null
+          }
+        }
+      ],
+      "_stats": {
+        "compendiumSource": "Actor.D8Jki67Th1lRyIKB.Item.bBwoqllHirRUyNRY",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1774521500779,
+        "modifiedTime": 1774521500779,
+        "lastModifiedBy": "R80hbppbUl1u0ueb"
+      },
+      "folder": null,
+      "sort": 0,
+      "_id": "MzlEqTiehpursQs2",
+      "ownership": {
+        "default": 0
+      }
     }
   ],
   "effects": [],
@@ -9302,10 +9302,10 @@
     "systemId": "dnd5e",
     "systemVersion": "5.2.5",
     "createdTime": 1772973771611,
-    "modifiedTime": 1774441386423,
+    "modifiedTime": 1775074281715,
     "lastModifiedBy": "R80hbppbUl1u0ueb"
   },
   "ownership": {
-    "default": 1
+    "default": 2
   }
 }

@@ -531,8 +531,8 @@
     },
     "details": {
       "biography": {
-        "value": "",
-        "public": "<p><em>Drow, female</em></p><p><em>5'0\", 20 years old</em></p><p>Youthful and cheery, Allie's high cheekbones, radiant skin and bright smile leave no doubt that she is a cut above the usual rabble. Lithe and liquid in her actions, Allie moves with a catlike grace even when walking at a brisk pace, her footsteps light and silent. Young for her race, Allie has shown more than the usual amount of rebelliousness present in elves her age... and more than the usual charm and childlike desire for adventure.</p>"
+        "value": "<p><em>Drow, female</em></p><p><em>5'0\", 20 years old</em></p><p>Youthful and cheery, Allie's high cheekbones, radiant skin and bright smile leave no doubt that she is a cut above the usual rabble. Lithe and liquid in her actions, Allie moves with a catlike grace even when walking at a brisk pace, her footsteps light and silent. Young for her race, Allie has shown more than the usual amount of rebelliousness present in elves her age... and more than the usual charm and childlike desire for adventure.</p>",
+        "public": ""
       },
       "alignment": "chaotic good",
       "ideal": "",
@@ -1860,10 +1860,10 @@
     "systemId": "dnd5e",
     "systemVersion": "5.2.5",
     "createdTime": 1772990059557,
-    "modifiedTime": 1774441386423,
+    "modifiedTime": 1775080519181,
     "lastModifiedBy": "R80hbppbUl1u0ueb"
   },
   "ownership": {
-    "default": 1
+    "default": 2
   }
 }

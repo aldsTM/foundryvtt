@@ -60,7 +60,7 @@
       },
       "con": {
         "value": 10,
-        "proficient": 1,
+        "proficient": 0,
         "max": null,
         "bonuses": {
           "check": "",
@@ -511,11 +511,11 @@
         "spent": 0
       },
       "hp": {
-        "max": 148,
+        "max": 130,
         "temp": null,
         "tempmax": null,
-        "value": 148,
-        "formula": "33d8",
+        "value": 130,
+        "formula": "29d8",
         "dt": null
       },
       "death": {
@@ -558,7 +558,7 @@
         "value": [],
         "custom": ""
       },
-      "cr": 17,
+      "cr": 16,
       "treasure": {
         "value": []
       }
@@ -3864,355 +3864,6 @@
       }
     },
     {
-      "_id": "1a70Sk4aDJhX0UzX",
-      "name": "Holy Aura",
-      "type": "spell",
-      "system": {
-        "source": {
-          "custom": "",
-          "book": "PHB 2024",
-          "page": "286",
-          "license": "",
-          "rules": "2024",
-          "revision": 1
-        },
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--3\"><p>For the duration, you emit an aura in a 30-foot @variantrule[Emanation [Area of Effect]|XPHB|Emanation]. While in the aura, creatures of your choice have @variantrule[Advantage|XPHB] on all saving throws, and other creatures have @variantrule[Disadvantage|XPHB] on attack rolls against them. In addition, when a Fiend or an Undead hits an affected creature with a melee attack roll, the attacker must succeed on a Constitution saving throw or have the &amp;Reference[condition=Blinded] condition until the end of its next turn.</p></div>",
-          "chat": ""
-        },
-        "level": 8,
-        "school": "abj",
-        "properties": [
-          "vocal",
-          "somatic",
-          "material",
-          "concentration"
-        ],
-        "ability": "",
-        "materials": {
-          "value": "a reliquary worth 1,000+ GP",
-          "consumed": false,
-          "cost": 1000,
-          "supply": 0
-        },
-        "target": {
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "radius",
-            "size": "30",
-            "width": "",
-            "height": "",
-            "units": "ft"
-          },
-          "affects": {
-            "count": "",
-            "type": "creature",
-            "choice": false,
-            "special": ""
-          }
-        },
-        "range": {
-          "value": "0",
-          "units": "self",
-          "special": ""
-        },
-        "activation": {
-          "type": "action",
-          "value": 1,
-          "condition": ""
-        },
-        "duration": {
-          "value": "1",
-          "units": "minute"
-        },
-        "uses": {
-          "max": "1",
-          "recovery": [
-            {
-              "period": "day",
-              "type": "recoverAll"
-            }
-          ],
-          "spent": 0
-        },
-        "method": "innate",
-        "activities": {
-          "dnd5eactivity000": {
-            "name": "Create Aura",
-            "type": "utility",
-            "img": "systems/dnd5e/icons/svg/trait-damage-immunities.svg",
-            "activation": {
-              "type": "action",
-              "override": false
-            },
-            "effects": [
-              {
-                "_id": "holyAuraxxxxxxxx",
-                "level": {}
-              }
-            ],
-            "_id": "dnd5eactivity000",
-            "target": {
-              "prompt": true,
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "override": false
-            },
-            "sort": 0,
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": []
-            },
-            "description": {},
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "flags": {},
-            "range": {
-              "units": "self",
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "visibility": {
-              "level": {},
-              "requireAttunement": false,
-              "requireIdentification": false,
-              "requireMagic": false
-            },
-            "roll": {
-              "prompt": false,
-              "visible": false
-            }
-          },
-          "dnd5eactivity001": {
-            "name": "Fiend/Undead Save",
-            "type": "save",
-            "activation": {
-              "type": "",
-              "override": false
-            },
-            "duration": {
-              "units": "round",
-              "value": "1",
-              "concentration": false,
-              "override": false
-            },
-            "target": {
-              "affects": {
-                "count": "1",
-                "type": "creature",
-                "choice": false
-              },
-              "prompt": true,
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "override": false
-            },
-            "range": {
-              "units": "any",
-              "override": false
-            },
-            "damage": {
-              "onSave": "half",
-              "parts": []
-            },
-            "save": {
-              "ability": [
-                "con"
-              ],
-              "dc": {
-                "calculation": "spellcasting"
-              }
-            },
-            "effects": [
-              {
-                "_id": "holyAura1xxxxxxx",
-                "level": {},
-                "onSave": false
-              }
-            ],
-            "_id": "dnd5eactivity001",
-            "sort": 0,
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": []
-            },
-            "description": {},
-            "flags": {},
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "visibility": {
-              "level": {},
-              "requireAttunement": false,
-              "requireIdentification": false,
-              "requireMagic": false
-            }
-          }
-        },
-        "identifier": "holy-aura",
-        "prepared": 1,
-        "sourceClass": ""
-      },
-      "img": "icons/magic/fire/explosion-fireball-large-blue.webp",
-      "flags": {
-        "plutonium": {
-          "page": "spells.html",
-          "source": "XPHB",
-          "hash": "holy%20aura_xphb",
-          "propDroppable": "spell",
-          "spellClassNames": [
-            "Cleric"
-          ]
-        }
-      },
-      "effects": [
-        {
-          "_id": "holyAuraxxxxxxxx",
-          "name": "Holy Protection",
-          "img": "icons/magic/fire/explosion-fireball-large-blue.webp",
-          "description": "",
-          "changes": [
-            {
-              "key": "system.abilities.str.save.roll.mode",
-              "mode": 2,
-              "value": "1",
-              "priority": 7
-            },
-            {
-              "key": "system.abilities.dex.save.roll.mode",
-              "mode": 2,
-              "value": "1",
-              "priority": 7
-            },
-            {
-              "key": "system.abilities.con.save.roll.mode",
-              "mode": 2,
-              "value": "1",
-              "priority": 7
-            },
-            {
-              "key": "system.abilities.int.save.roll.mode",
-              "mode": 2,
-              "value": "1",
-              "priority": 7
-            },
-            {
-              "key": "system.abilities.wis.save.roll.mode",
-              "mode": 2,
-              "value": "1",
-              "priority": 7
-            },
-            {
-              "key": "system.abilities.cha.save.roll.mode",
-              "mode": 2,
-              "value": "1",
-              "priority": 7
-            }
-          ],
-          "statuses": [],
-          "disabled": false,
-          "duration": {
-            "seconds": 60,
-            "startTime": null,
-            "combat": null
-          },
-          "origin": null,
-          "transfer": false,
-          "flags": {
-            "plutonium": {
-              "dedupeId": "holy-protection"
-            }
-          },
-          "type": "base",
-          "system": {},
-          "tint": "#ffffff",
-          "sort": 0,
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null,
-            "coreVersion": "13.351",
-            "systemId": "dnd5e",
-            "systemVersion": "5.2.5",
-            "lastModifiedBy": null
-          }
-        },
-        {
-          "_id": "holyAura1xxxxxxx",
-          "name": "Blinded",
-          "img": "icons/magic/fire/explosion-fireball-large-blue.webp",
-          "description": "The attacker has the &amp;Reference[Blinded apply=false] condition until the end of its next turn.",
-          "changes": [],
-          "statuses": [
-            "blinded"
-          ],
-          "disabled": false,
-          "duration": {
-            "rounds": 1,
-            "startTime": null,
-            "combat": null
-          },
-          "origin": null,
-          "transfer": false,
-          "flags": {
-            "plutonium": {
-              "dedupeId": "blinded"
-            }
-          },
-          "type": "base",
-          "system": {},
-          "tint": "#ffffff",
-          "sort": 0,
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null,
-            "coreVersion": "13.351",
-            "systemId": "dnd5e",
-            "systemVersion": "5.2.5",
-            "lastModifiedBy": null
-          }
-        }
-      ],
-      "_stats": {
-        "compendiumSource": "Actor.I2yzDF4OOVbV3Us2.Item.ysVvQAJWvSThLpxL",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "dnd5e",
-        "systemVersion": "5.2.5",
-        "createdTime": 1774526390610,
-        "modifiedTime": 1774526606301,
-        "lastModifiedBy": "R80hbppbUl1u0ueb"
-      },
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
       "_id": "ugPqjMwIn7RTQjo2",
       "name": "True Resurrection",
       "type": "spell",
@@ -5974,116 +5625,6 @@
       }
     },
     {
-      "name": "Supreme Healing",
-      "type": "feat",
-      "_id": "MB8uzGbmSo6SK096",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
-      "system": {
-        "activities": {},
-        "uses": {
-          "spent": 0,
-          "recovery": [],
-          "max": ""
-        },
-        "advancement": [],
-        "description": {
-          "value": "<p>When Aurelia casts a spell or uses a magical effect that restores hit points, the target regains the maximum number of hit points possible for the spell or effect.</p>",
-          "chat": ""
-        },
-        "identifier": "supreme-healing",
-        "source": {
-          "revision": 1,
-          "rules": "2024"
-        },
-        "crewed": false,
-        "enchant": {},
-        "prerequisites": {
-          "items": [],
-          "repeatable": false,
-          "level": null
-        },
-        "properties": [],
-        "requirements": "",
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "dnd5e",
-        "systemVersion": "5.2.5",
-        "createdTime": 1774532515757,
-        "modifiedTime": 1774532571278,
-        "lastModifiedBy": "R80hbppbUl1u0ueb"
-      },
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Unarmoured Defence",
-      "type": "feat",
-      "_id": "XZfzfIStoThgWcx6",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
-      "system": {
-        "activities": {},
-        "uses": {
-          "spent": 0,
-          "recovery": [],
-          "max": ""
-        },
-        "advancement": [],
-        "description": {
-          "value": "<p>While Aurelia is wearing no armor, her AC includes her Charisma modifier.</p>",
-          "chat": ""
-        },
-        "identifier": "feature",
-        "source": {
-          "revision": 1,
-          "rules": "2014"
-        },
-        "crewed": false,
-        "enchant": {},
-        "prerequisites": {
-          "items": [],
-          "repeatable": false,
-          "level": null
-        },
-        "properties": [],
-        "requirements": "",
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Actor.WYbmblEYGvZfFegg.Item.Mmq223SvKFYUXNEF",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "dnd5e",
-        "systemVersion": "5.2.5",
-        "createdTime": 1774532579797,
-        "modifiedTime": 1774532579797,
-        "lastModifiedBy": "R80hbppbUl1u0ueb"
-      },
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
       "_id": "MjcYAjebZJ5GSetZ",
       "name": "Guidance",
       "type": "spell",
@@ -6426,7 +5967,7 @@
           "revision": 1
         },
         "description": {
-          "value": "<div class=\"rd__b  rd__b--3\"><p><em>Melee Weapon Attack:</em> [[/r 1d20+11]]{+11} to hit, reach 5 ft., one target. <em>Hit:</em> 9 ([[/damage 1d8 + 5 type=slashing]]) damage, or 10 ([[/damage 1d10 + 5 type=slashing]]) damage when used with two hands, plus 22 ([[/damage 5d8 type=radiant]]) damage if wielded by Aurelia.</p></div>",
+          "value": "<div class=\"rd__b  rd__b--3\"><p><em>Melee Weapon Attack:</em> [[/r 1d20+10]]{+10} to hit, reach 5 ft., one target. <em>Hit:</em> 9 ([[/damage 1d8 + 5 type=slashing]]) damage, or 10 ([[/damage 1d10 + 5 type=slashing]]) damage when used with two hands, plus 18 ([[/damage 4d8 type=radiant]]) damage if wielded by Aurelia.</p></div>",
           "chat": ""
         },
         "range": {
@@ -6508,7 +6049,7 @@
                     "enabled": false,
                     "formula": ""
                   },
-                  "number": 5,
+                  "number": 4,
                   "denomination": 8,
                   "bonus": "",
                   "types": [
@@ -6619,7 +6160,7 @@
                     "enabled": false,
                     "formula": ""
                   },
-                  "number": 5,
+                  "number": 4,
                   "denomination": 8,
                   "bonus": "",
                   "types": [
@@ -6764,7 +6305,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.2.5",
         "createdTime": 1774535795251,
-        "modifiedTime": 1774778214489,
+        "modifiedTime": 1774803219657,
         "lastModifiedBy": "R80hbppbUl1u0ueb"
       },
       "folder": null,
@@ -6989,7 +6530,7 @@
         },
         "advancement": [],
         "description": {
-          "value": "<p>Aurelia targets <strong>one (1) creature</strong> within <strong>5 feet</strong> of her who can see or hear her. The target must succeed on a DC 20 Wisdom saving throw against this nonmagical effect, made with disadvantage, or immediately lose concentration on any spell or effect it is maintaining.</p>",
+          "value": "<p>Aurelia targets <strong>one (1) creature</strong> within <strong>5 feet</strong> of her who can see or hear her. The target must succeed on a DC 19 Wisdom saving throw against this nonmagical effect, made with disadvantage, or immediately lose concentration on any spell or effect it is maintaining.</p>",
           "chat": ""
         },
         "identifier": "feature",
@@ -7023,7 +6564,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.2.5",
         "createdTime": 1774535997764,
-        "modifiedTime": 1774535997764,
+        "modifiedTime": 1774803288426,
         "lastModifiedBy": "R80hbppbUl1u0ueb"
       },
       "ownership": {
@@ -7044,7 +6585,7 @@
           "revision": 1
         },
         "description": {
-          "value": "<p>Aurelia casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC <span class=\"rd__dc\">20</span>):</p><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"Spellcasting\" class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>At will: @UUID[Actor.FYUC86Yhypft1CXY.Item.cdwD7loTMUkvXCvE], @UUID[Actor.FYUC86Yhypft1CXY.Item.MjcYAjebZJ5GSetZ], @UUID[Actor.FYUC86Yhypft1CXY.Item.aBpnPJWYmISal9kH] (4d8 radiant damage), @UUID[Actor.FYUC86Yhypft1CXY.Item.0GvFzarN1YspYNEd], @UUID[Actor.FYUC86Yhypft1CXY.Item.MDZAKouSot7hIPsR]</p></li><li class=\"rd__li  rd__li-spell\"><p>3/day each: @UUID[Actor.FYUC86Yhypft1CXY.Item.qLhJJJnW6U42WQFI], @UUID[Actor.FYUC86Yhypft1CXY.Item.C2hd6cdCbTKdd75o], @UUID[Actor.FYUC86Yhypft1CXY.Item.0sosihSAsXOceJXf], @UUID[Actor.FYUC86Yhypft1CXY.Item.zAgMeHap6fzOiZpr], @UUID[Actor.FYUC86Yhypft1CXY.Item.Z8D3xWITsptbSusw], @UUID[Actor.FYUC86Yhypft1CXY.Item.iOrCmalAt785Kq9K], @UUID[Actor.FYUC86Yhypft1CXY.Item.o0QdU3PIpT2qb9Zy], @UUID[Actor.FYUC86Yhypft1CXY.Item.YOEEqbXr9hJwRAA3], @UUID[Actor.FYUC86Yhypft1CXY.Item.Q64WOaLk56OT9CAe]</p></li><li class=\"rd__li  rd__li-spell\"><p>1/day each: @UUID[Actor.FYUC86Yhypft1CXY.Item.uBCxogB8RWUq2h8E], @UUID[Actor.FYUC86Yhypft1CXY.Item.Fr1Ec6K67cSmgFDr], @UUID[Actor.FYUC86Yhypft1CXY.Item.T9XQnYWzzscnnVrx], @UUID[Actor.FYUC86Yhypft1CXY.Item.ld8EGKtNoqtkIQmo], @UUID[Actor.FYUC86Yhypft1CXY.Item.YobupgBiQ4JZ3JLt], @UUID[Actor.FYUC86Yhypft1CXY.Item.vEZc5LIAFGPPr1je], @UUID[Actor.FYUC86Yhypft1CXY.Item.1a70Sk4aDJhX0UzX], @UUID[Actor.FYUC86Yhypft1CXY.Item.QniVljf8Dj7MQkso], @UUID[Actor.FYUC86Yhypft1CXY.Item.K9z0HrCO8nhwkA9K], @UUID[Actor.FYUC86Yhypft1CXY.Item.vyNAtQPTiOvveuME], @UUID[Actor.FYUC86Yhypft1CXY.Item.4HzCg0eHnKl6TbCE], @UUID[Actor.FYUC86Yhypft1CXY.Item.ugPqjMwIn7RTQjo2], @UUID[Actor.FYUC86Yhypft1CXY.Item.J5bsNsMtdL5wmEgj]</p></li></ul></div></div>",
+          "value": "<p>Aurelia casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC <span class=\"rd__dc\">19</span>):</p><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"Spellcasting\" class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>At will: @UUID[Actor.FYUC86Yhypft1CXY.Item.cdwD7loTMUkvXCvE], @UUID[Actor.FYUC86Yhypft1CXY.Item.MjcYAjebZJ5GSetZ], @UUID[Actor.FYUC86Yhypft1CXY.Item.aBpnPJWYmISal9kH] (4d8 radiant damage), @UUID[Actor.FYUC86Yhypft1CXY.Item.0GvFzarN1YspYNEd], @UUID[Actor.FYUC86Yhypft1CXY.Item.MDZAKouSot7hIPsR]</p></li><li class=\"rd__li  rd__li-spell\"><p>3/day each: @UUID[Actor.FYUC86Yhypft1CXY.Item.qLhJJJnW6U42WQFI], @UUID[Actor.FYUC86Yhypft1CXY.Item.C2hd6cdCbTKdd75o], @UUID[Actor.FYUC86Yhypft1CXY.Item.zAgMeHap6fzOiZpr], @UUID[Actor.FYUC86Yhypft1CXY.Item.Z8D3xWITsptbSusw], @UUID[Actor.FYUC86Yhypft1CXY.Item.iOrCmalAt785Kq9K], @UUID[Actor.FYUC86Yhypft1CXY.Item.o0QdU3PIpT2qb9Zy], @UUID[Actor.FYUC86Yhypft1CXY.Item.Q64WOaLk56OT9CAe]</p></li><li class=\"rd__li  rd__li-spell\"><p>1/day each: @UUID[Actor.FYUC86Yhypft1CXY.Item.0sosihSAsXOceJXf], @UUID[Actor.FYUC86Yhypft1CXY.Item.uBCxogB8RWUq2h8E], @UUID[Actor.FYUC86Yhypft1CXY.Item.Fr1Ec6K67cSmgFDr], @UUID[Actor.FYUC86Yhypft1CXY.Item.T9XQnYWzzscnnVrx], @UUID[Actor.FYUC86Yhypft1CXY.Item.ld8EGKtNoqtkIQmo], @UUID[Actor.FYUC86Yhypft1CXY.Item.YobupgBiQ4JZ3JLt], @UUID[Actor.FYUC86Yhypft1CXY.Item.vEZc5LIAFGPPr1je], @UUID[Actor.FYUC86Yhypft1CXY.Item.QniVljf8Dj7MQkso], @UUID[Actor.FYUC86Yhypft1CXY.Item.K9z0HrCO8nhwkA9K], @UUID[Actor.FYUC86Yhypft1CXY.Item.vyNAtQPTiOvveuME], @UUID[Actor.FYUC86Yhypft1CXY.Item.4HzCg0eHnKl6TbCE], @UUID[Actor.FYUC86Yhypft1CXY.Item.ugPqjMwIn7RTQjo2], @UUID[Actor.FYUC86Yhypft1CXY.Item.J5bsNsMtdL5wmEgj]</p></li></ul></div></div>",
           "chat": ""
         },
         "requirements": "",
@@ -7315,7 +6856,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.2.5",
         "createdTime": 1774535999095,
-        "modifiedTime": 1774780913981,
+        "modifiedTime": 1774850815830,
         "lastModifiedBy": "R80hbppbUl1u0ueb"
       },
       "folder": null,
@@ -8564,7 +8105,7 @@
           "units": "inst"
         },
         "uses": {
-          "max": "3",
+          "max": "1",
           "recovery": [
             {
               "period": "day",
@@ -8654,7 +8195,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.2.5",
         "createdTime": 1774536727694,
-        "modifiedTime": 1774536745997,
+        "modifiedTime": 1774830309962,
         "lastModifiedBy": "R80hbppbUl1u0ueb"
       },
       "folder": null,
@@ -8905,221 +8446,6 @@
       }
     },
     {
-      "_id": "YOEEqbXr9hJwRAA3",
-      "name": "Prayer of Healing",
-      "type": "spell",
-      "system": {
-        "source": {
-          "custom": "",
-          "book": "PHB 2024",
-          "page": "307",
-          "license": "",
-          "rules": "2024",
-          "revision": 1
-        },
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--3\"><p>Up to five creatures of your choice who remain within range for the spell's entire casting gain the benefits of a @variantrule[Short Rest|XPHB] and also regain [[/r 2d8]] @variantrule[Hit Points|XPHB]. A creature can't be affected by this spell again until that creature finishes a @variantrule[Long Rest|XPHB].</p></div><div class=\"rd__b  rd__b--3\"><p></p><div data-roll-name-ancestor=\"Using a Higher-Level Spell Slot\" class=\"rd__b  rd__b--3\"><p><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner \">Using a Higher-Level Spell Slot.</span></span> The healing increases by [[/r 1d8]] for each spell slot level above 2.</p></div></div>",
-          "chat": ""
-        },
-        "level": 2,
-        "school": "abj",
-        "properties": [
-          "vocal"
-        ],
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "target": {
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": "ft"
-          },
-          "affects": {
-            "count": "5",
-            "type": "creature",
-            "choice": true,
-            "special": ""
-          }
-        },
-        "range": {
-          "value": "30",
-          "units": "ft",
-          "special": ""
-        },
-        "activation": {
-          "type": "minute",
-          "value": 10,
-          "condition": ""
-        },
-        "duration": {
-          "value": "0",
-          "units": "inst"
-        },
-        "uses": {
-          "max": "3",
-          "recovery": [
-            {
-              "period": "day",
-              "type": "recoverAll"
-            }
-          ],
-          "spent": 0
-        },
-        "method": "innate",
-        "prepared": 1,
-        "activities": {
-          "dnd5eactivity000": {
-            "type": "heal",
-            "activation": {
-              "type": "action",
-              "override": false
-            },
-            "healing": {
-              "number": 2,
-              "denomination": 8,
-              "types": [
-                "healing"
-              ],
-              "scaling": {
-                "mode": "whole",
-                "number": 1
-              },
-              "custom": {
-                "enabled": false
-              }
-            },
-            "effects": [
-              {
-                "_id": "prayerOfHealingx",
-                "level": {}
-              }
-            ],
-            "_id": "dnd5eactivity000",
-            "target": {
-              "prompt": true,
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "override": false
-            },
-            "sort": 0,
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": []
-            },
-            "description": {},
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "flags": {},
-            "range": {
-              "units": "self",
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "visibility": {
-              "level": {},
-              "requireAttunement": false,
-              "requireIdentification": false,
-              "requireMagic": false
-            }
-          }
-        },
-        "identifier": "prayer-of-healing",
-        "sourceClass": "",
-        "ability": ""
-      },
-      "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
-      "flags": {
-        "plutonium": {
-          "page": "spells.html",
-          "source": "XPHB",
-          "hash": "prayer%20of%20healing_xphb",
-          "propDroppable": "spell",
-          "spellClassNames": [
-            "Cleric",
-            "Paladin"
-          ]
-        }
-      },
-      "effects": [
-        {
-          "_id": "prayerOfHealingx",
-          "name": "Healed by Prayer",
-          "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>A creature can't be affected by the <a href=\"https://5e.tools/spells.html#prayer%20of%20healing_xphb\" data-vet-page=\"spells.html\" data-vet-source=\"XPHB\" data-vet-hash=\"prayer%20of%20healing_xphb\">Prayer of Healing</a> spell again until that creature finishes a Long Rest.</p></div>",
-          "changes": [],
-          "statuses": [],
-          "disabled": false,
-          "duration": {
-            "startTime": null,
-            "seconds": null,
-            "rounds": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null,
-            "combat": null
-          },
-          "origin": null,
-          "transfer": false,
-          "flags": {
-            "plutonium": {
-              "dedupeId": "healed-by-prayer"
-            }
-          },
-          "type": "base",
-          "system": {},
-          "tint": "#ffffff",
-          "sort": 0,
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null,
-            "coreVersion": "13.351",
-            "systemId": "dnd5e",
-            "systemVersion": "5.2.5",
-            "lastModifiedBy": null
-          }
-        }
-      ],
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "dnd5e",
-        "systemVersion": "5.2.5",
-        "createdTime": 1774617249467,
-        "modifiedTime": 1774617295427,
-        "lastModifiedBy": "R80hbppbUl1u0ueb"
-      },
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
       "_id": "XYDl9ARd4n35kHLS",
       "name": "Parry",
       "type": "feat",
@@ -9133,7 +8459,7 @@
           "revision": 1
         },
         "description": {
-          "value": "<div class=\"rd__b  rd__b--3\"><p>Aurelia adds 6 to her AC against one melee attack that would hit her. To do so, Aurelia must see the attacker and be wielding a melee weapon.</p></div>",
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Aurelia adds 5 to her AC against one melee attack that would hit her. To do so, Aurelia must see the attacker and be wielding a melee weapon.</p></div>",
           "chat": ""
         },
         "requirements": "",
@@ -9230,139 +8556,11 @@
         "systemId": "dnd5e",
         "systemVersion": "5.2.5",
         "createdTime": 1774620508213,
-        "modifiedTime": 1774620508213,
+        "modifiedTime": 1774803338163,
         "lastModifiedBy": "R80hbppbUl1u0ueb"
       },
       "folder": null,
       "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Shield",
-      "type": "feat",
-      "_id": "03nr7BPyiN1U9ps0",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
-      "system": {
-        "activities": {
-          "835YMtXFbYtat2DU": {
-            "type": "utility",
-            "_id": "835YMtXFbYtat2DU",
-            "sort": 0,
-            "activation": {
-              "type": "reaction",
-              "override": false,
-              "condition": ""
-            },
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": []
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "flags": {},
-            "range": {
-              "units": "self",
-              "override": false,
-              "special": ""
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft",
-                "type": ""
-              },
-              "affects": {
-                "choice": false,
-                "type": ""
-              },
-              "override": false,
-              "prompt": true
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [
-                {
-                  "period": "day",
-                  "type": "recoverAll"
-                }
-              ],
-              "max": "1"
-            },
-            "visibility": {
-              "level": {
-                "min": null,
-                "max": null
-              },
-              "requireAttunement": false,
-              "requireIdentification": false,
-              "requireMagic": false,
-              "identifier": ""
-            },
-            "roll": {
-              "prompt": false,
-              "visible": false,
-              "name": "",
-              "formula": ""
-            },
-            "name": ""
-          }
-        },
-        "uses": {
-          "spent": 0,
-          "recovery": [],
-          "max": ""
-        },
-        "advancement": [],
-        "description": {
-          "value": "<p>Aurelia casts the @UUID[Actor.mBmZ9sEfhYqIXt55.Item.oh0NcRy0hKAakx8K] spell.</p>",
-          "chat": ""
-        },
-        "identifier": "feature",
-        "source": {
-          "revision": 1,
-          "rules": "2014"
-        },
-        "crewed": false,
-        "enchant": {},
-        "prerequisites": {
-          "items": [],
-          "repeatable": false,
-          "level": null
-        },
-        "properties": [],
-        "requirements": "",
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Actor.mBmZ9sEfhYqIXt55.Item.EvTLrUbgqEpzeo8h",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "dnd5e",
-        "systemVersion": "5.2.5",
-        "createdTime": 1774620534939,
-        "modifiedTime": 1774620534939,
-        "lastModifiedBy": "R80hbppbUl1u0ueb"
-      },
       "ownership": {
         "default": 0
       }
@@ -9557,6 +8755,116 @@
       "ownership": {
         "default": 0
       }
+    },
+    {
+      "name": "Supreme Healing",
+      "type": "feat",
+      "_id": "xLSBj1oveEltZowL",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "advancement": [],
+        "description": {
+          "value": "<p>When Aurelia casts a spell or uses a magical effect that restores hit points, the target regains the maximum number of hit points possible for the spell or effect.</p>",
+          "chat": ""
+        },
+        "identifier": "supreme-healing",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "items": [],
+          "repeatable": false,
+          "level": null
+        },
+        "properties": [],
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Actor.FYUC86Yhypft1CXY.Item.MB8uzGbmSo6SK096",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1774803031250,
+        "modifiedTime": 1774803031250,
+        "lastModifiedBy": "R80hbppbUl1u0ueb"
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "name": "Unarmoured Defence",
+      "type": "feat",
+      "_id": "jV6DEulMOGCE5akW",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "activities": {},
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "advancement": [],
+        "description": {
+          "value": "<p>While Aurelia is wearing no armor, her AC includes her Charisma modifier.</p>",
+          "chat": ""
+        },
+        "identifier": "feature",
+        "source": {
+          "revision": 1,
+          "rules": "2014"
+        },
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "items": [],
+          "repeatable": false,
+          "level": null
+        },
+        "properties": [],
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Actor.WYbmblEYGvZfFegg.Item.Mmq223SvKFYUXNEF",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1774803033154,
+        "modifiedTime": 1774803033154,
+        "lastModifiedBy": "R80hbppbUl1u0ueb"
+      },
+      "ownership": {
+        "default": 0
+      }
     }
   ],
   "effects": [],
@@ -9587,7 +8895,7 @@
     "systemId": "dnd5e",
     "systemVersion": "5.2.5",
     "createdTime": 1774521628325,
-    "modifiedTime": 1774761896156,
+    "modifiedTime": 1775079448734,
     "lastModifiedBy": "R80hbppbUl1u0ueb"
   },
   "ownership": {

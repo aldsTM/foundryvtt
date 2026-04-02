@@ -60,7 +60,7 @@
       },
       "con": {
         "value": 14,
-        "proficient": 1,
+        "proficient": 0,
         "max": null,
         "bonuses": {
           "check": "",
@@ -511,11 +511,11 @@
         "spent": 0
       },
       "hp": {
-        "max": 91,
+        "max": 71,
         "temp": null,
         "tempmax": null,
-        "value": 91,
-        "formula": "14d8+28",
+        "value": 71,
+        "formula": "11d8+22",
         "dt": null
       },
       "death": {
@@ -4735,7 +4735,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.2.5",
         "lastModifiedBy": "R80hbppbUl1u0ueb",
-        "modifiedTime": 1774779146876
+        "modifiedTime": 1774984808902
       },
       "folder": null,
       "sort": 0,
@@ -5012,7 +5012,7 @@
           "revision": 1
         },
         "description": {
-          "value": "<p>Angela casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC <span class=\"rd__dc\">17</span>):</p><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"Spellcasting\" class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>At will: @UUID[Actor.7kDpE58wUkhdTYN1.Item.MjcYAjebZJ5GSetZ], @UUID[Actor.7kDpE58wUkhdTYN1.Item.mjD9tPUIac6Ub0Wx], @UUID[Actor.7kDpE58wUkhdTYN1.Item.KjF64N4X5UBCGquJ] (3d8 radiant damage), @UUID[Actor.7kDpE58wUkhdTYN1.Item.0GvFzarN1YspYNEd], @UUID[Actor.7kDpE58wUkhdTYN1.Item.MDZAKouSot7hIPsR]</p></li><li class=\"rd__li  rd__li-spell\"><p>2/day each: @UUID[Actor.7kDpE58wUkhdTYN1.Item.qLhJJJnW6U42WQFI], @UUID[Actor.7kDpE58wUkhdTYN1.Item.C2hd6cdCbTKdd75o], @UUID[Actor.7kDpE58wUkhdTYN1.Item.0sosihSAsXOceJXf], @UUID[Actor.7kDpE58wUkhdTYN1.Item.zAgMeHap6fzOiZpr], @UUID[Actor.7kDpE58wUkhdTYN1.Item.Z8D3xWITsptbSusw], @UUID[Actor.7kDpE58wUkhdTYN1.Item.iOrCmalAt785Kq9K], @UUID[Actor.7kDpE58wUkhdTYN1.Item.o0QdU3PIpT2qb9Zy], @UUID[Actor.7kDpE58wUkhdTYN1.Item.Y4mpk8EQsGNFkwX3], @UUID[Actor.7kDpE58wUkhdTYN1.Item.Q64WOaLk56OT9CAe]</p></li><li class=\"rd__li  rd__li-spell\"><p>1/day each: @UUID[Actor.7kDpE58wUkhdTYN1.Item.Fr1Ec6K67cSmgFDr], @UUID[Actor.7kDpE58wUkhdTYN1.Item.YobupgBiQ4JZ3JLt], @UUID[Actor.7kDpE58wUkhdTYN1.Item.vEZc5LIAFGPPr1je], @UUID[Actor.7kDpE58wUkhdTYN1.Item.QniVljf8Dj7MQkso], @UUID[Actor.7kDpE58wUkhdTYN1.Item.WIPxXC9B6hUOjtQ2], @UUID[Actor.7kDpE58wUkhdTYN1.Item.4HzCg0eHnKl6TbCE], @UUID[Actor.7kDpE58wUkhdTYN1.Item.J5bsNsMtdL5wmEgj]</p></li></ul></div></div>",
+          "value": "<p>Angela casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC <span class=\"rd__dc\">17</span>):</p><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"Spellcasting\" class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>At will: @UUID[Actor.7kDpE58wUkhdTYN1.Item.MjcYAjebZJ5GSetZ], @UUID[Actor.7kDpE58wUkhdTYN1.Item.mjD9tPUIac6Ub0Wx], @UUID[Actor.7kDpE58wUkhdTYN1.Item.KjF64N4X5UBCGquJ] (3d8 radiant damage), @UUID[Actor.7kDpE58wUkhdTYN1.Item.0GvFzarN1YspYNEd], @UUID[Actor.7kDpE58wUkhdTYN1.Item.MDZAKouSot7hIPsR]</p></li><li class=\"rd__li  rd__li-spell\"><p>2/day each: @UUID[Actor.7kDpE58wUkhdTYN1.Item.qLhJJJnW6U42WQFI], @UUID[Actor.7kDpE58wUkhdTYN1.Item.C2hd6cdCbTKdd75o], @UUID[Actor.7kDpE58wUkhdTYN1.Item.zAgMeHap6fzOiZpr], @UUID[Actor.7kDpE58wUkhdTYN1.Item.Z8D3xWITsptbSusw], @UUID[Actor.7kDpE58wUkhdTYN1.Item.iOrCmalAt785Kq9K], @UUID[Actor.7kDpE58wUkhdTYN1.Item.o0QdU3PIpT2qb9Zy], @UUID[Actor.7kDpE58wUkhdTYN1.Item.Q64WOaLk56OT9CAe]</p></li><li class=\"rd__li  rd__li-spell\"><p>1/day each: @UUID[Actor.7kDpE58wUkhdTYN1.Item.0sosihSAsXOceJXf], @UUID[Actor.7kDpE58wUkhdTYN1.Item.Fr1Ec6K67cSmgFDr], @UUID[Actor.7kDpE58wUkhdTYN1.Item.YobupgBiQ4JZ3JLt], @UUID[Actor.7kDpE58wUkhdTYN1.Item.vEZc5LIAFGPPr1je], @UUID[Actor.7kDpE58wUkhdTYN1.Item.QniVljf8Dj7MQkso], @UUID[Actor.7kDpE58wUkhdTYN1.Item.WIPxXC9B6hUOjtQ2], @UUID[Actor.7kDpE58wUkhdTYN1.Item.4HzCg0eHnKl6TbCE], @UUID[Actor.7kDpE58wUkhdTYN1.Item.J5bsNsMtdL5wmEgj]</p></li></ul></div></div>",
           "chat": ""
         },
         "requirements": "",
@@ -5283,7 +5283,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.2.5",
         "lastModifiedBy": "R80hbppbUl1u0ueb",
-        "modifiedTime": 1774780752418
+        "modifiedTime": 1774850917789
       },
       "folder": null,
       "sort": 0,
@@ -6522,7 +6522,7 @@
           "units": "inst"
         },
         "uses": {
-          "max": "2",
+          "max": "1",
           "recovery": [
             {
               "period": "day",
@@ -6612,7 +6612,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.2.5",
         "lastModifiedBy": "R80hbppbUl1u0ueb",
-        "modifiedTime": 1774609946694
+        "modifiedTime": 1774830242714
       },
       "folder": null,
       "sort": 0,
@@ -7540,349 +7540,6 @@
       }
     },
     {
-      "_id": "Y4mpk8EQsGNFkwX3",
-      "name": "Prayer of Healing",
-      "type": "spell",
-      "system": {
-        "source": {
-          "custom": "",
-          "book": "PHB 2024",
-          "page": "307",
-          "license": "",
-          "rules": "2024",
-          "revision": 1
-        },
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--3\"><p>Up to five creatures of your choice who remain within range for the spell's entire casting gain the benefits of a @variantrule[Short Rest|XPHB] and also regain [[/r 2d8]] @variantrule[Hit Points|XPHB]. A creature can't be affected by this spell again until that creature finishes a @variantrule[Long Rest|XPHB].</p></div><div class=\"rd__b  rd__b--3\"><p></p><div data-roll-name-ancestor=\"Using a Higher-Level Spell Slot\" class=\"rd__b  rd__b--3\"><p><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner \">Using a Higher-Level Spell Slot.</span></span> The healing increases by [[/r 1d8]] for each spell slot level above 2.</p></div></div>",
-          "chat": ""
-        },
-        "level": 2,
-        "school": "abj",
-        "properties": [
-          "vocal"
-        ],
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "target": {
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": "ft"
-          },
-          "affects": {
-            "count": "5",
-            "type": "creature",
-            "choice": true,
-            "special": ""
-          }
-        },
-        "range": {
-          "value": "30",
-          "units": "ft",
-          "special": ""
-        },
-        "activation": {
-          "type": "minute",
-          "value": 10,
-          "condition": ""
-        },
-        "duration": {
-          "value": "0",
-          "units": "inst"
-        },
-        "uses": {
-          "max": "2",
-          "recovery": [
-            {
-              "period": "day",
-              "type": "recoverAll"
-            }
-          ],
-          "spent": 0
-        },
-        "method": "innate",
-        "prepared": 1,
-        "activities": {
-          "dnd5eactivity000": {
-            "type": "heal",
-            "activation": {
-              "type": "action",
-              "override": false
-            },
-            "healing": {
-              "number": 2,
-              "denomination": 8,
-              "types": [
-                "healing"
-              ],
-              "scaling": {
-                "mode": "whole",
-                "number": 1
-              },
-              "custom": {
-                "enabled": false
-              }
-            },
-            "effects": [
-              {
-                "_id": "prayerOfHealingx",
-                "level": {}
-              }
-            ],
-            "_id": "dnd5eactivity000",
-            "target": {
-              "prompt": true,
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "override": false
-            },
-            "sort": 0,
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": []
-            },
-            "description": {},
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "flags": {},
-            "range": {
-              "units": "self",
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "visibility": {
-              "level": {},
-              "requireAttunement": false,
-              "requireIdentification": false,
-              "requireMagic": false
-            }
-          }
-        },
-        "identifier": "prayer-of-healing",
-        "sourceClass": "",
-        "ability": ""
-      },
-      "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
-      "flags": {
-        "plutonium": {
-          "page": "spells.html",
-          "source": "XPHB",
-          "hash": "prayer%20of%20healing_xphb",
-          "propDroppable": "spell",
-          "spellClassNames": [
-            "Cleric",
-            "Paladin"
-          ]
-        }
-      },
-      "effects": [
-        {
-          "_id": "prayerOfHealingx",
-          "name": "Healed by Prayer",
-          "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>A creature can't be affected by the <a href=\"https://5e.tools/spells.html#prayer%20of%20healing_xphb\" data-vet-page=\"spells.html\" data-vet-source=\"XPHB\" data-vet-hash=\"prayer%20of%20healing_xphb\">Prayer of Healing</a> spell again until that creature finishes a Long Rest.</p></div>",
-          "changes": [],
-          "statuses": [],
-          "disabled": false,
-          "duration": {
-            "startTime": null,
-            "seconds": null,
-            "rounds": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null,
-            "combat": null
-          },
-          "origin": null,
-          "transfer": false,
-          "flags": {
-            "plutonium": {
-              "dedupeId": "healed-by-prayer"
-            }
-          },
-          "type": "base",
-          "system": {},
-          "tint": "#ffffff",
-          "sort": 0,
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null,
-            "coreVersion": "13.351",
-            "systemId": "dnd5e",
-            "systemVersion": "5.2.5",
-            "lastModifiedBy": null
-          }
-        }
-      ],
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "dnd5e",
-        "systemVersion": "5.2.5",
-        "createdTime": 1774617538259,
-        "modifiedTime": 1774617560848,
-        "lastModifiedBy": "R80hbppbUl1u0ueb"
-      },
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "name": "Shield",
-      "type": "feat",
-      "_id": "lJHtGzABksnqQQZc",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
-      "system": {
-        "activities": {
-          "835YMtXFbYtat2DU": {
-            "type": "utility",
-            "_id": "835YMtXFbYtat2DU",
-            "sort": 0,
-            "activation": {
-              "type": "reaction",
-              "override": false,
-              "condition": ""
-            },
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": []
-            },
-            "description": {
-              "chatFlavor": ""
-            },
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "flags": {},
-            "range": {
-              "units": "self",
-              "override": false,
-              "special": ""
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft",
-                "type": ""
-              },
-              "affects": {
-                "choice": false,
-                "type": ""
-              },
-              "override": false,
-              "prompt": true
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": [
-                {
-                  "period": "day",
-                  "type": "recoverAll"
-                }
-              ],
-              "max": "1"
-            },
-            "visibility": {
-              "level": {
-                "min": null,
-                "max": null
-              },
-              "requireAttunement": false,
-              "requireIdentification": false,
-              "requireMagic": false,
-              "identifier": ""
-            },
-            "roll": {
-              "prompt": false,
-              "visible": false,
-              "name": "",
-              "formula": ""
-            },
-            "name": ""
-          }
-        },
-        "uses": {
-          "spent": 0,
-          "recovery": [],
-          "max": ""
-        },
-        "advancement": [],
-        "description": {
-          "value": "<p>Angela casts the @UUID[Actor.mBmZ9sEfhYqIXt55.Item.oh0NcRy0hKAakx8K] spell.</p>",
-          "chat": ""
-        },
-        "identifier": "feature",
-        "source": {
-          "revision": 1,
-          "rules": "2014"
-        },
-        "crewed": false,
-        "enchant": {},
-        "prerequisites": {
-          "items": [],
-          "repeatable": false,
-          "level": null
-        },
-        "properties": [],
-        "requirements": "",
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Actor.mBmZ9sEfhYqIXt55.Item.EvTLrUbgqEpzeo8h",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "dnd5e",
-        "systemVersion": "5.2.5",
-        "createdTime": 1774620341299,
-        "modifiedTime": 1774620351713,
-        "lastModifiedBy": "R80hbppbUl1u0ueb"
-      },
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
       "_id": "KjF64N4X5UBCGquJ",
       "name": "Sacred Flame",
       "type": "spell",
@@ -8072,6 +7729,126 @@
       "ownership": {
         "default": 0
       }
+    },
+    {
+      "_id": "UaUZwwwKsjhTEF08",
+      "name": "Parry",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "GGR",
+          "page": "230",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Angela adds 4 to her AC against one melee attack that would hit her. To do so, Angela must see the attacker and be wielding a melee weapon.</p></div>",
+          "chat": ""
+        },
+        "requirements": "",
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "advancement": [],
+        "activities": {
+          "dnd5eactivity003": {
+            "_id": "dnd5eactivity003",
+            "type": "utility",
+            "activation": {
+              "type": "reaction",
+              "value": 1,
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "units": "self",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false
+            },
+            "sort": 0,
+            "flags": {},
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            }
+          }
+        },
+        "identifier": "parry",
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "items": [],
+          "repeatable": false,
+          "level": null
+        }
+      },
+      "img": "icons/weapons/swords/swords-short.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterReaction",
+          "source": "GGR",
+          "hash": "parry_aurelia_ggr_ggr"
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "compendiumSource": "Actor.qtNt8MnCxT7zdx0r.Item.ilxvm4tt8O9GtPlv",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1774943125413,
+        "modifiedTime": 1774943178567,
+        "lastModifiedBy": "R80hbppbUl1u0ueb"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
     }
   ],
   "effects": [],
@@ -8102,7 +7879,7 @@
     "systemId": "dnd5e",
     "systemVersion": "5.2.5",
     "createdTime": 1774608609966,
-    "modifiedTime": 1774785853138,
+    "modifiedTime": 1775074281715,
     "lastModifiedBy": "R80hbppbUl1u0ueb"
   },
   "ownership": {

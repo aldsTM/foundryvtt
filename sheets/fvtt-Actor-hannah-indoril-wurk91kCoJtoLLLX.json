@@ -640,7 +640,7 @@
     "lockRotation": true,
     "rotation": 0,
     "alpha": 1,
-    "disposition": 1,
+    "disposition": 0,
     "displayBars": 40,
     "bar1": {
       "attribute": "attributes.hp"
@@ -1730,258 +1730,6 @@
       }
     },
     {
-      "_id": "7cBXGXToxEVHCiDD",
-      "name": "Protective Shield",
-      "type": "feat",
-      "system": {
-        "source": {
-          "custom": "",
-          "book": "MPMM",
-          "page": "100",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--3\"><p>When Hannah or a creature within 10 feet of her is hit by an attack roll, she gives the target a +5 bonus to its AC until the start of Hannah's next turn, which can cause the triggering attack roll to miss.</p></div>",
-          "chat": ""
-        },
-        "requirements": "",
-        "uses": {
-          "max": "1",
-          "recovery": [
-            {
-              "period": "day",
-              "type": "recoverAll"
-            }
-          ],
-          "spent": 0
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "properties": [],
-        "advancement": [],
-        "activities": {
-          "dnd5eactivity003": {
-            "_id": "dnd5eactivity003",
-            "type": "utility",
-            "activation": {
-              "type": "reaction",
-              "value": 1,
-              "override": false
-            },
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": [
-                {
-                  "target": "",
-                  "value": "1",
-                  "type": "itemUses",
-                  "scaling": {}
-                }
-              ]
-            },
-            "description": {},
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "units": "self",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "override": false,
-              "prompt": true
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "roll": {
-              "prompt": false,
-              "visible": false
-            },
-            "sort": 0,
-            "flags": {},
-            "visibility": {
-              "level": {},
-              "requireAttunement": false,
-              "requireIdentification": false,
-              "requireMagic": false
-            }
-          }
-        },
-        "identifier": "protective-shield",
-        "crewed": false,
-        "enchant": {},
-        "prerequisites": {
-          "items": [],
-          "repeatable": false,
-          "level": null
-        }
-      },
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
-      "flags": {
-        "plutonium": {
-          "page": "monsterReaction",
-          "source": "MPMM",
-          "hash": "protective%20shield%20(3%2fday)_drow%20favored%20consort_mpmm_mpmm"
-        }
-      },
-      "effects": [],
-      "_stats": {
-        "compendiumSource": "Actor.ieL76fLcC6TOBEA1.Item.HJcF3aKeamydl3UR",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "dnd5e",
-        "systemVersion": "5.2.5",
-        "createdTime": 1774443864982,
-        "modifiedTime": 1774747106047,
-        "lastModifiedBy": "R80hbppbUl1u0ueb"
-      },
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "bzKm9nodHlEqYaZi",
-      "name": "Slow Fall",
-      "type": "feat",
-      "system": {
-        "source": {
-          "custom": "",
-          "book": "WDH",
-          "page": "204",
-          "license": "",
-          "rules": "2014",
-          "revision": 1
-        },
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--3\"><p>Hannah reduces the bludgeoning damage she takes from a fall by 50.</p></div>",
-          "chat": ""
-        },
-        "requirements": "",
-        "uses": {
-          "max": "",
-          "recovery": [],
-          "spent": 0
-        },
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        },
-        "properties": [],
-        "advancement": [],
-        "activities": {
-          "dnd5eactivity003": {
-            "_id": "dnd5eactivity003",
-            "type": "utility",
-            "activation": {
-              "type": "reaction",
-              "value": 1,
-              "override": false
-            },
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": []
-            },
-            "description": {},
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "effects": [],
-            "range": {
-              "units": "self",
-              "override": false
-            },
-            "target": {
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "override": false,
-              "prompt": true
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "roll": {
-              "prompt": false,
-              "visible": false
-            },
-            "sort": 0,
-            "flags": {},
-            "visibility": {
-              "level": {},
-              "requireAttunement": false,
-              "requireIdentification": false,
-              "requireMagic": false
-            }
-          }
-        },
-        "identifier": "slow-fall",
-        "crewed": false,
-        "enchant": {},
-        "prerequisites": {
-          "items": [],
-          "repeatable": false,
-          "level": null
-        }
-      },
-      "img": "icons/equipment/finger/ring-winged-gold-blue.webp",
-      "flags": {
-        "plutonium": {
-          "page": "monsterReaction",
-          "source": "WDH",
-          "hash": "slow%20fall_hlam_wdh_wdh"
-        }
-      },
-      "effects": [],
-      "_stats": {
-        "compendiumSource": "Actor.ZGVyBTjFLtE73tEs.Item.s7m1SJ4Pgk55xBxM",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "dnd5e",
-        "systemVersion": "5.2.5",
-        "createdTime": 1774443926937,
-        "modifiedTime": 1774443950951,
-        "lastModifiedBy": "R80hbppbUl1u0ueb"
-      },
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
       "name": "Special Equipment",
       "type": "feat",
       "_id": "u4shJGgMPJIvzzU8",
@@ -2200,6 +1948,249 @@
       "ownership": {
         "default": 0
       }
+    },
+    {
+      "name": "Redirect Damage",
+      "type": "feat",
+      "_id": "nhYVKXoqqk6naTzd",
+      "img": "systems/dnd5e/icons/svg/items/feature.svg",
+      "system": {
+        "activities": {
+          "zvS3cUDXnSXImKG7": {
+            "type": "utility",
+            "_id": "zvS3cUDXnSXImKG7",
+            "sort": 0,
+            "activation": {
+              "type": "reaction",
+              "override": false,
+              "condition": ""
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {
+              "chatFlavor": ""
+            },
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "flags": {},
+            "range": {
+              "units": "self",
+              "override": false,
+              "special": ""
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft",
+                "type": ""
+              },
+              "affects": {
+                "choice": false,
+                "type": ""
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": [],
+              "max": ""
+            },
+            "visibility": {
+              "level": {
+                "min": null,
+                "max": null
+              },
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false,
+              "identifier": ""
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false,
+              "name": "",
+              "formula": ""
+            },
+            "name": ""
+          }
+        },
+        "uses": {
+          "spent": 0,
+          "recovery": [],
+          "max": ""
+        },
+        "advancement": [],
+        "description": {
+          "value": "<p>In response to a creature within 5 feet of Hannah taking damage, she causes that creature not to take the damage. Instead, Hannah takes it. This damage to her can’t be reduced or prevented in any way.</p>",
+          "chat": ""
+        },
+        "identifier": "redirect-damage",
+        "source": {
+          "revision": 1,
+          "rules": "2024"
+        },
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "items": [],
+          "repeatable": false,
+          "level": null
+        },
+        "properties": [],
+        "requirements": "",
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "compendiumSource": "Actor.c5r1AgOhldMBD6dI.Item.uXS0nmseMOMzn2jB",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1774829566031,
+        "modifiedTime": 1774829600587,
+        "lastModifiedBy": "R80hbppbUl1u0ueb"
+      },
+      "ownership": {
+        "default": 0
+      }
+    },
+    {
+      "_id": "SDxJJBERFJ1mPXK6",
+      "name": "Slow Fall",
+      "type": "feat",
+      "system": {
+        "source": {
+          "custom": "",
+          "book": "WDH",
+          "page": "204",
+          "license": "",
+          "rules": "2014",
+          "revision": 1
+        },
+        "description": {
+          "value": "<div class=\"rd__b  rd__b--3\"><p>Hannah reduces the bludgeoning damage she takes from a fall by 50.</p></div>",
+          "chat": ""
+        },
+        "requirements": "",
+        "uses": {
+          "max": "",
+          "recovery": [],
+          "spent": 0
+        },
+        "type": {
+          "value": "monster",
+          "subtype": ""
+        },
+        "properties": [],
+        "advancement": [],
+        "activities": {
+          "dnd5eactivity003": {
+            "_id": "dnd5eactivity003",
+            "type": "utility",
+            "activation": {
+              "type": "reaction",
+              "value": 1,
+              "override": false
+            },
+            "consumption": {
+              "scaling": {
+                "allowed": false
+              },
+              "spellSlot": true,
+              "targets": []
+            },
+            "description": {},
+            "duration": {
+              "units": "inst",
+              "concentration": false,
+              "override": false
+            },
+            "effects": [],
+            "range": {
+              "units": "self",
+              "override": false
+            },
+            "target": {
+              "template": {
+                "contiguous": false,
+                "units": "ft"
+              },
+              "affects": {
+                "choice": false
+              },
+              "override": false,
+              "prompt": true
+            },
+            "uses": {
+              "spent": 0,
+              "recovery": []
+            },
+            "roll": {
+              "prompt": false,
+              "visible": false
+            },
+            "sort": 0,
+            "flags": {},
+            "visibility": {
+              "level": {},
+              "requireAttunement": false,
+              "requireIdentification": false,
+              "requireMagic": false
+            }
+          }
+        },
+        "identifier": "slow-fall",
+        "crewed": false,
+        "enchant": {},
+        "prerequisites": {
+          "items": [],
+          "repeatable": false,
+          "level": null
+        }
+      },
+      "img": "icons/equipment/finger/ring-winged-gold-blue.webp",
+      "flags": {
+        "plutonium": {
+          "page": "monsterReaction",
+          "source": "WDH",
+          "hash": "slow%20fall_hlam_wdh_wdh"
+        }
+      },
+      "effects": [],
+      "_stats": {
+        "compendiumSource": "Actor.ZGVyBTjFLtE73tEs.Item.s7m1SJ4Pgk55xBxM",
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "dnd5e",
+        "systemVersion": "5.2.5",
+        "createdTime": 1774829608233,
+        "modifiedTime": 1774829608233,
+        "lastModifiedBy": "R80hbppbUl1u0ueb"
+      },
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0
+      }
     }
   ],
   "effects": [],
@@ -2224,10 +2215,10 @@
     "systemId": "dnd5e",
     "systemVersion": "5.2.5",
     "createdTime": 1774441197127,
-    "modifiedTime": 1774664401856,
+    "modifiedTime": 1775079451175,
     "lastModifiedBy": "R80hbppbUl1u0ueb"
   },
   "ownership": {
-    "default": 1
+    "default": 2
   }
 }

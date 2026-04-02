@@ -512,7 +512,7 @@
       },
       "hp": {
         "max": 247,
-        "temp": null,
+        "temp": 0,
         "tempmax": null,
         "value": 247,
         "formula": "33d8+99",
@@ -614,21 +614,17 @@
       "ci": {
         "value": [
           "charmed",
-          "dehydration",
           "diseased",
           "exhaustion",
-          "frightened",
-          "malnutrition"
+          "frightened"
         ],
         "custom": ""
       },
       "languages": {
         "value": [
-          "abyssal",
           "celestial",
           "common",
           "elvish",
-          "infernal",
           "undercommon"
         ],
         "custom": "",
@@ -3443,7 +3439,7 @@
           "revision": 1
         },
         "description": {
-          "value": "<p>Abigail casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC <span class=\"rd__dc\">20</span>):</p><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"Spellcasting\" class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>At will: @UUID[Actor.FYUC86Yhypft1CXY.Item.cdwD7loTMUkvXCvE]</p></li><li class=\"rd__li  rd__li-spell\"><p>2/day each: @UUID[Actor.FYUC86Yhypft1CXY.Item.qLhJJJnW6U42WQFI], @UUID[Actor.FYUC86Yhypft1CXY.Item.C2hd6cdCbTKdd75o], @UUID[Actor.FYUC86Yhypft1CXY.Item.zAgMeHap6fzOiZpr], @UUID[Actor.FYUC86Yhypft1CXY.Item.Z8D3xWITsptbSusw], @UUID[Actor.FYUC86Yhypft1CXY.Item.iOrCmalAt785Kq9K], @UUID[Actor.FYUC86Yhypft1CXY.Item.YOEEqbXr9hJwRAA3], @UUID[Actor.FYUC86Yhypft1CXY.Item.Q64WOaLk56OT9CAe]</p></li><li class=\"rd__li  rd__li-spell\"><p>1/day each: @UUID[Actor.FYUC86Yhypft1CXY.Item.uBCxogB8RWUq2h8E], @UUID[Actor.FYUC86Yhypft1CXY.Item.Fr1Ec6K67cSmgFDr], @UUID[Actor.FYUC86Yhypft1CXY.Item.ld8EGKtNoqtkIQmo], @UUID[Actor.FYUC86Yhypft1CXY.Item.YobupgBiQ4JZ3JLt], @UUID[Actor.FYUC86Yhypft1CXY.Item.QniVljf8Dj7MQkso], @UUID[Actor.dGXO3M02FtNyO84N.Item.oYquFT7oQqj6ahKk]</p></li></ul></div></div>",
+          "value": "<p>Abigail casts one of the following spells, requiring no material components and using Charisma as the spellcasting ability (spell save DC <span class=\"rd__dc\">20</span>):</p><div class=\"rd__b  rd__b--3\"><div data-roll-name-ancestor=\"Spellcasting\" class=\"rd__b  rd__b--3\"><ul class=\"rd__list rd__list-hang-notitle\"><li class=\"rd__li  rd__li-spell\"><p>At will: @UUID[Actor.FYUC86Yhypft1CXY.Item.cdwD7loTMUkvXCvE]</p></li><li class=\"rd__li  rd__li-spell\"><p>2/day each: @UUID[Actor.FYUC86Yhypft1CXY.Item.qLhJJJnW6U42WQFI], @UUID[Actor.FYUC86Yhypft1CXY.Item.C2hd6cdCbTKdd75o], @UUID[Actor.FYUC86Yhypft1CXY.Item.zAgMeHap6fzOiZpr], @UUID[Actor.FYUC86Yhypft1CXY.Item.Z8D3xWITsptbSusw], @UUID[Actor.FYUC86Yhypft1CXY.Item.iOrCmalAt785Kq9K], @UUID[Actor.FYUC86Yhypft1CXY.Item.Q64WOaLk56OT9CAe]</p></li><li class=\"rd__li  rd__li-spell\"><p>1/day each: @UUID[Actor.FYUC86Yhypft1CXY.Item.uBCxogB8RWUq2h8E], @UUID[Actor.FYUC86Yhypft1CXY.Item.Fr1Ec6K67cSmgFDr], @UUID[Actor.FYUC86Yhypft1CXY.Item.ld8EGKtNoqtkIQmo], @UUID[Actor.FYUC86Yhypft1CXY.Item.YobupgBiQ4JZ3JLt], @UUID[Actor.FYUC86Yhypft1CXY.Item.QniVljf8Dj7MQkso], @UUID[Actor.dGXO3M02FtNyO84N.Item.oYquFT7oQqj6ahKk]</p></li></ul></div></div>",
           "chat": ""
         },
         "requirements": "",
@@ -3714,7 +3710,7 @@
         "systemId": "dnd5e",
         "systemVersion": "5.2.5",
         "lastModifiedBy": "R80hbppbUl1u0ueb",
-        "modifiedTime": 1774755888348
+        "modifiedTime": 1774851221750
       },
       "folder": null,
       "sort": 0,
@@ -4883,220 +4879,6 @@
         "systemVersion": "5.2.5",
         "lastModifiedBy": "R80hbppbUl1u0ueb",
         "modifiedTime": 1774750358011
-      },
-      "folder": null,
-      "sort": 0,
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
-      "_id": "YOEEqbXr9hJwRAA3",
-      "name": "Prayer of Healing",
-      "type": "spell",
-      "system": {
-        "source": {
-          "custom": "",
-          "book": "PHB 2024",
-          "page": "307",
-          "license": "",
-          "rules": "2024",
-          "revision": 1
-        },
-        "description": {
-          "value": "<div class=\"rd__b  rd__b--3\"><p>Up to five creatures of your choice who remain within range for the spell's entire casting gain the benefits of a @variantrule[Short Rest|XPHB] and also regain [[/r 2d8]] @variantrule[Hit Points|XPHB]. A creature can't be affected by this spell again until that creature finishes a @variantrule[Long Rest|XPHB].</p></div><div class=\"rd__b  rd__b--3\"><p></p><div data-roll-name-ancestor=\"Using a Higher-Level Spell Slot\" class=\"rd__b  rd__b--3\"><p><span class=\"rd__h rd__h--3\" data-title-index=\"1\"> <span class=\"entry-title-inner \">Using a Higher-Level Spell Slot.</span></span> The healing increases by [[/r 1d8]] for each spell slot level above 2.</p></div></div>",
-          "chat": ""
-        },
-        "level": 2,
-        "school": "abj",
-        "properties": [
-          "vocal"
-        ],
-        "materials": {
-          "value": "",
-          "consumed": false,
-          "cost": 0,
-          "supply": 0
-        },
-        "target": {
-          "template": {
-            "count": "",
-            "contiguous": false,
-            "type": "",
-            "size": "",
-            "width": "",
-            "height": "",
-            "units": "ft"
-          },
-          "affects": {
-            "count": "5",
-            "type": "creature",
-            "choice": true,
-            "special": ""
-          }
-        },
-        "range": {
-          "value": "30",
-          "units": "ft",
-          "special": ""
-        },
-        "activation": {
-          "type": "minute",
-          "value": 10,
-          "condition": ""
-        },
-        "duration": {
-          "value": "0",
-          "units": "inst"
-        },
-        "uses": {
-          "max": "2",
-          "recovery": [
-            {
-              "period": "day",
-              "type": "recoverAll"
-            }
-          ],
-          "spent": 0
-        },
-        "method": "innate",
-        "prepared": 1,
-        "activities": {
-          "dnd5eactivity000": {
-            "type": "heal",
-            "activation": {
-              "type": "action",
-              "override": false
-            },
-            "healing": {
-              "number": 2,
-              "denomination": 8,
-              "types": [
-                "healing"
-              ],
-              "scaling": {
-                "mode": "whole",
-                "number": 1
-              },
-              "custom": {
-                "enabled": false
-              }
-            },
-            "effects": [
-              {
-                "_id": "prayerOfHealingx",
-                "level": {}
-              }
-            ],
-            "_id": "dnd5eactivity000",
-            "target": {
-              "prompt": true,
-              "template": {
-                "contiguous": false,
-                "units": "ft"
-              },
-              "affects": {
-                "choice": false
-              },
-              "override": false
-            },
-            "sort": 0,
-            "consumption": {
-              "scaling": {
-                "allowed": false
-              },
-              "spellSlot": true,
-              "targets": []
-            },
-            "description": {},
-            "duration": {
-              "units": "inst",
-              "concentration": false,
-              "override": false
-            },
-            "flags": {},
-            "range": {
-              "units": "self",
-              "override": false
-            },
-            "uses": {
-              "spent": 0,
-              "recovery": []
-            },
-            "visibility": {
-              "level": {},
-              "requireAttunement": false,
-              "requireIdentification": false,
-              "requireMagic": false
-            }
-          }
-        },
-        "identifier": "prayer-of-healing",
-        "sourceClass": "",
-        "ability": ""
-      },
-      "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
-      "flags": {
-        "plutonium": {
-          "page": "spells.html",
-          "source": "XPHB",
-          "hash": "prayer%20of%20healing_xphb",
-          "propDroppable": "spell",
-          "spellClassNames": [
-            "Cleric",
-            "Paladin"
-          ]
-        }
-      },
-      "effects": [
-        {
-          "_id": "prayerOfHealingx",
-          "name": "Healed by Prayer",
-          "img": "icons/magic/holy/prayer-hands-glowing-yellow.webp",
-          "description": "<div class=\"rd__b  rd__b--3\"><p>A creature can't be affected by the <a href=\"https://5e.tools/spells.html#prayer%20of%20healing_xphb\" data-vet-page=\"spells.html\" data-vet-source=\"XPHB\" data-vet-hash=\"prayer%20of%20healing_xphb\">Prayer of Healing</a> spell again until that creature finishes a Long Rest.</p></div>",
-          "changes": [],
-          "statuses": [],
-          "disabled": false,
-          "duration": {
-            "startTime": null,
-            "seconds": null,
-            "rounds": null,
-            "turns": null,
-            "startRound": null,
-            "startTurn": null,
-            "combat": null
-          },
-          "origin": null,
-          "transfer": false,
-          "flags": {
-            "plutonium": {
-              "dedupeId": "healed-by-prayer"
-            }
-          },
-          "type": "base",
-          "system": {},
-          "tint": "#ffffff",
-          "sort": 0,
-          "_stats": {
-            "compendiumSource": null,
-            "duplicateSource": null,
-            "exportSource": null,
-            "coreVersion": "13.351",
-            "systemId": "dnd5e",
-            "systemVersion": "5.2.5",
-            "lastModifiedBy": null
-          }
-        }
-      ],
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "dnd5e",
-        "systemVersion": "5.2.5",
-        "lastModifiedBy": "R80hbppbUl1u0ueb",
-        "modifiedTime": 1774750403732
       },
       "folder": null,
       "sort": 0,
@@ -6668,61 +6450,6 @@
       }
     },
     {
-      "name": "Timeless Body",
-      "type": "feat",
-      "_id": "1zTjYg42az2bnrEH",
-      "img": "systems/dnd5e/icons/svg/items/feature.svg",
-      "system": {
-        "activities": {},
-        "uses": {
-          "spent": 0,
-          "recovery": [],
-          "max": ""
-        },
-        "advancement": [],
-        "description": {
-          "value": "<p>Abigail won't suffer the frailty of old age, can’t be aged magically, and no longer needs food or water. She can still die of old age, however.</p>",
-          "chat": ""
-        },
-        "identifier": "timeless-body",
-        "source": {
-          "revision": 1,
-          "rules": "2024"
-        },
-        "crewed": false,
-        "enchant": {},
-        "prerequisites": {
-          "items": [],
-          "repeatable": false,
-          "level": null
-        },
-        "properties": [],
-        "requirements": "",
-        "type": {
-          "value": "monster",
-          "subtype": ""
-        }
-      },
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": "Actor.c5r1AgOhldMBD6dI.Item.Okh4E0ePxGCSvLht",
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.351",
-        "systemId": "dnd5e",
-        "systemVersion": "5.2.5",
-        "createdTime": 1774756059717,
-        "modifiedTime": 1774756059717,
-        "lastModifiedBy": "R80hbppbUl1u0ueb"
-      },
-      "ownership": {
-        "default": 0
-      }
-    },
-    {
       "_id": "QzsOt4tU9HuDyAw7",
       "name": "Counterattack",
       "type": "feat",
@@ -6872,7 +6599,7 @@
     "systemId": "dnd5e",
     "systemVersion": "5.2.5",
     "createdTime": 1774748053462,
-    "modifiedTime": 1774790480721,
+    "modifiedTime": 1775108035810,
     "lastModifiedBy": "R80hbppbUl1u0ueb"
   },
   "ownership": {
